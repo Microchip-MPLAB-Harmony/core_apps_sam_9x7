@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -mdfp="${DFP_DIR}"D:\H3\core_apps_sam_9x7\apps\driver\spi_eeprom\at25\at25_eeprom_read_write\firmware\src\config\sam_9x75_eb\vectortrap.s

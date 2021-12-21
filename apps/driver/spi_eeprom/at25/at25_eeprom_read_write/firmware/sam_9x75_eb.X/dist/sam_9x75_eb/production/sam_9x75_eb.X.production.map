@@ -1,0 +1,841 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+                              build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o (__aeabi_uidiv)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+                              build/sam_9x75_eb/production/_ext/2080577836/cstartup.o (__libc_init_array)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+                              build/sam_9x75_eb/production/_ext/1360937237/app.o (memcmp)
+
+Microchip PIC32 Memory-Usage Report
+        --------------------------------------------------------------------------
+         Total Program Memory used  :           0           0  
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text                   0x23f00000         0x1b0c        6924   
+.data                   0x23f01b0c           0x18          24  Initialized data 
+.relocate               0x23f01b24           0x40          64   
+.region_cache_aligned_c 0x23f01b24           0x1c          28   
+.bss                    0x23f04000         0x847c       33916  Uninitialized data 
+.region_cache_aligned   0x23f0c47c            0x4           4   
+.stacks                 0x23f0c480         0x2140        8512   
+         Total RAM used  :      0xc140       49472  0.0% of 0xf000000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :      0xc140       49472  0.0% of 0xf000000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x23f0e5c8          0x200         512  Reserved for heap 
+stack                   0x23f0e7e0      0xc0f1818   202315800  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .xc_stack_usage
+                0x00000000       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .data          0x00000000        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .xc_stack_usage
+                0x00000000       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .text.DefaultInterruptHandler
+                0x00000000        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .text.SYSC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .text.ECC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .text.MC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .text._mon_getc
+                0x00000000        0x8 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .text._mon_putc
+                0x00000000        0x4 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_info    0x00000000      0x2b6 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x80 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_loc     0x00000000       0x25 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_line    0x00000000       0x81 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .comment       0x00000000       0x54 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.icache_Disable
+                0x00000000       0x20 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanAll
+                0x00000000       0x38 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanInvalidateAll
+                0x00000000       0x38 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_InvalidateByAddr
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanByAddr
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanInvalidateByAddr
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text.dcache_Disable
+                0x00000000       0x24 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortRead
+                0x00000000        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortWrite
+                0x00000000       0x18 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortLatchRead
+                0x00000000        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortToggle
+                0x00000000       0x10 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortInputEnable
+                0x00000000        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text.PIO_PortOutputEnable
+                0x00000000        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .text.AIC_INT_IrqEnable
+                0x00000000       0x10 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .text.AIC_INT_IrqDisable
+                0x00000000       0x30 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .text.AIC_INT_IrqRestore
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_Status
+                0x00000000       0x10 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_Close
+                0x00000000       0x1c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_PageWrite
+                0x00000000       0x1c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_TransferStatusGet
+                0x00000000       0x1c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_GeometryGet
+                0x00000000       0xac build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .text.FLEXCOM5_SPI_TransferSetup
+                0x00000000       0x94 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .text.FLEXCOM5_SPI_IsTransmitterBusy
+                0x00000000       0x1c build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_IsEnabled
+                0x00000000       0x14 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_Enable
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_Disable
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_Restore
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceIsEnabled
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceEnable
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceDisable
+                0x00000000       0x3c build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceRestore
+                0x00000000       0x30 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusGet
+                0x00000000       0x78 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusSet
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusClear
+                0x00000000       0x28 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_info    0x00000000     0x1236 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_abbrev  0x00000000      0x290 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_loc     0x00000000      0x53a build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_aranges
+                0x00000000       0x70 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_ranges  0x00000000       0x98 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_line    0x00000000      0x569 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_str     0x00000000       0x64 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .comment       0x00000000       0x54 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .debug_frame   0x00000000      0x118 build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .ARM.attributes
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableCaches
+                0x00000000       0x10 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableCaches
+                0x00000000       0x10 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableICache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableICache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_InvalidateICache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableDCache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableDCache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_InvalidateDCache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanDCache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_InvalidateDCache_by_Addr
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanDCache_by_Addr
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache_by_Addr
+                0x00000000        0xc build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_info    0x00000000      0x7af build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_abbrev  0x00000000       0x9f build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_loc     0x00000000      0x27e build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_aranges
+                0x00000000       0x80 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_ranges  0x00000000       0x70 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_line    0x00000000      0x270 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_str     0x00000000       0xd6 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .comment       0x00000000       0x54 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .debug_frame   0x00000000      0x148 build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .ARM.attributes
+                0x00000000       0x2c build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .xc_stack_usage
+                0x00000000       0x35 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage
+                0x00000000       0x36 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .xc_stack_usage
+                0x00000000       0x1f c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .comment       0x00000000       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram             0x00300000         0x00010000         xw
+ram              0x21000000         0x0f000000         xwl !r
+ram_nocache      0x20000000         0x01000000         !xrw
+rom              0x00000000         0x00000000         xrl
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+LOAD build/sam_9x75_eb/production/_ext/1360937237/main.o
+LOAD build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+LOAD build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+LOAD build/sam_9x75_eb/production/_ext/400366566/xc32_monitor.o
+LOAD build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+LOAD build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+LOAD build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+LOAD build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+LOAD build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+LOAD build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+LOAD build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+LOAD build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+LOAD build/sam_9x75_eb/production/_ext/626097884/bsp.o
+LOAD build/sam_9x75_eb/production/_ext/1219600167/sys_int.o
+LOAD build/sam_9x75_eb/production/_ext/1045604261/sys_cache.o
+LOAD build/sam_9x75_eb/production/_ext/1360937237/app.o
+LOAD build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00001000                C_STACK_SIZE = 0x1000
+                0x00000060                IRQ_STACK_SIZE = 0x60
+                0x00000060                FIQ_STACK_SIZE = 0x60
+                0x00001000                SVC_STACK_SIZE = 0x1000
+                0x00000040                ABT_STACK_SIZE = 0x40
+                0x00000040                UND_STACK_SIZE = 0x40
+
+.text           0x23f00000     0x1b0c
+                0x23f00000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (_sfixed = .)
+ *(.textEntry)
+ .textEntry     0x23f00000      0x10c build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+                0x23f00000                entry
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x23f0010c       0x6c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .text.main     0x23f00178       0x14 build/sam_9x75_eb/production/_ext/1360937237/main.o
+                0x23f00178                main
+ .text.SYS_Initialize
+                0x23f0018c       0xb4 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+                0x23f0018c                SYS_Initialize
+ .text.DefaultInterruptHandlerForSpurious
+                0x23f00240       0x18 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+                0x23f00240                DefaultInterruptHandlerForSpurious
+ .text.icache_InvalidateAll
+                0x23f00258        0xc build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+                0x23f00258                icache_InvalidateAll
+ .text.icache_Enable
+                0x23f00264       0x20 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+                0x23f00264                icache_Enable
+ .text.dcache_InvalidateAll
+                0x23f00284       0x38 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+                0x23f00284                dcache_InvalidateAll
+ .text.dcache_Enable
+                0x23f002bc       0x20 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+                0x23f002bc                dcache_Enable
+ .text.MMU_Initialize
+                0x23f002dc      0x20c build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+                0x23f002dc                MMU_Initialize
+ .text.CLK_Initialize
+                0x23f004e8       0xb0 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+                0x23f004e8                CLK_Initialize
+ .text.PIO_Initialize
+                0x23f00598       0xf0 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+                0x23f00598                PIO_Initialize
+ .text.PIO_PortSet
+                0x23f00688        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+                0x23f00688                PIO_PortSet
+ .text.PIO_PortClear
+                0x23f00690        0x8 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+                0x23f00690                PIO_PortClear
+ .text.AIC_INT_Initialize
+                0x23f00698      0x110 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+                0x23f00698                AIC_INT_Initialize
+ *fill*         0x23f007a8        0x8 
+ .text          0x23f007b0       0xa0 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .text._DRV_AT25_WriteMemoryAddress
+                0x23f00850       0xd0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text._DRV_AT25_ReadStatus
+                0x23f00920       0x84 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text._DRV_AT25_WriteEnable
+                0x23f009a4       0x7c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text._SPIEventHandler
+                0x23f00a20      0x2e4 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .text.DRV_AT25_Initialize
+                0x23f00d04      0x12c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+                0x23f00d04                DRV_AT25_Initialize
+ .text.DRV_AT25_Open
+                0x23f00e30       0x70 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+                0x23f00e30                DRV_AT25_Open
+ .text.DRV_AT25_EventHandlerSet
+                0x23f00ea0       0x18 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+                0x23f00ea0                DRV_AT25_EventHandlerSet
+ .text.DRV_AT25_Read
+                0x23f00eb8       0xa0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+                0x23f00eb8                DRV_AT25_Read
+ .text.DRV_AT25_Write
+                0x23f00f58       0x94 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+                0x23f00f58                DRV_AT25_Write
+ .text.FLEXCOM5_SPI_Initialize
+                0x23f00fec       0x50 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f00fec                FLEXCOM5_SPI_Initialize
+ .text.FLEXCOM5_SPI_WriteRead
+                0x23f0103c      0x234 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f0103c                FLEXCOM5_SPI_WriteRead
+ .text.FLEXCOM5_SPI_Write
+                0x23f01270       0x14 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f01270                FLEXCOM5_SPI_Write
+ .text.FLEXCOM5_SPI_Read
+                0x23f01284       0x1c build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f01284                FLEXCOM5_SPI_Read
+ .text.FLEXCOM5_SPI_CallbackRegister
+                0x23f012a0       0x14 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f012a0                FLEXCOM5_SPI_CallbackRegister
+ .text.FLEXCOM5_SPI_IsBusy
+                0x23f012b4       0x30 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f012b4                FLEXCOM5_SPI_IsBusy
+ .text.FLEXCOM5_InterruptHandler
+                0x23f012e4      0x2b8 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f012e4                FLEXCOM5_InterruptHandler
+ .text.BSP_Initialize
+                0x23f0159c       0x18 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+                0x23f0159c                BSP_Initialize
+ .text.APP_EEPROM_EventHandler
+                0x23f015b4       0x28 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .text.APP_Initialize
+                0x23f015dc       0x18 build/sam_9x75_eb/production/_ext/1360937237/app.o
+                0x23f015dc                APP_Initialize
+ .text.APP_Tasks
+                0x23f015f4      0x1c0 build/sam_9x75_eb/production/_ext/1360937237/app.o
+                0x23f015f4                APP_Tasks
+ .text.SYS_Tasks
+                0x23f017b4        0xc build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+                0x23f017b4                SYS_Tasks
+ .text          0x23f017c0      0x20c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+                0x23f017c0                __aeabi_uidiv
+                0x23f017c0                __udivsi3
+                0x23f019ac                __aeabi_uidivmod
+ .text          0x23f019cc        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+                0x23f019cc                __aeabi_idiv0
+                0x23f019cc                __aeabi_ldiv0
+ .text.__libc_init_array
+                0x23f019d0       0x70 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+                0x23f019d0                __libc_init_array
+ .text.memcmp   0x23f01a40       0x48 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+                0x23f01a40                memcmp
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.drvAT25InitData
+                0x23f01a88       0x18 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+                0x23f01a88                drvAT25InitData
+ .rodata.drvAT25PlibAPI
+                0x23f01aa0       0x14 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+                0x23f01aa0                drvAT25PlibAPI
+ .rodata        0x23f01ab4       0x20 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x23f01ad4                . = ALIGN (0x4)
+ *(.init)
+ .init          0x23f01ad4        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+                0x23f01ad4                _init
+ .init          0x23f01ae0        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+                0x23f01aec                . = ALIGN (0x4)
+                0x23f01aec                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x23f01aec                PROVIDE (__preinit_array_end = .)
+                0x23f01aec                . = ALIGN (0x4)
+                0x23f01aec                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x23f01aec        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+                0x23f01af0                PROVIDE (__init_array_end = .)
+                0x23f01af0                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x23f01af0                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x23f01af0        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+                0x23f01af0                _fini
+ .fini          0x23f01afc        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+                0x23f01b08                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ .fini_array    0x23f01b08        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+ *(.dinit*)
+                0x23f01b0c                . = ALIGN (0x4)
+
+.data           0x23f01b0c       0x18
+ *(.data .data.*)
+ .data.irqData  0x23f01b0c       0x14 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+                0x23f01b0c                irqData
+ .data.irqDataEntryCount
+                0x23f01b20        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+                0x23f01b20                irqDataEntryCount
+                0x23f01b24                . = ALIGN (0x4)
+                [!provide]                PROVIDE (_efixed = .)
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end = .)
+                0x23f01b24                . = ALIGN (0x4)
+                0x23f01b24                PROVIDE (_etext = .)
+
+.relocate       0x00300000       0x40 load address 0x23f01b24
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                PROVIDE (_srelocate = .)
+ *(.vectors .vectors.*)
+ .vectors       0x00300000       0x3c build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .vectors       0x0030003c        0x4 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+                0x0030003c                software_interrupt_irq_handler
+                0x0030003c                prefetch_abort_irq_handler
+                0x0030003c                data_abort_irq_handler
+                0x0030003c                undefined_instruction_irq_handler
+ *(.ramfunc)
+                0x00300040                . = ALIGN (0x4)
+                0x00300040                PROVIDE (_erelocate = .)
+
+.region_cache_aligned_const
+                0x23f01b24       0x1c
+                0x23f01b40                . = ALIGN (0x20)
+ *fill*         0x23f01b24       0x1c 
+ *(.region_cache_aligned_const)
+                0x23f01b40                . = ALIGN (0x20)
+
+.region_sram    0x00300040        0x0
+                0x00300040                . = ALIGN (0x4)
+ *(.region_sram)
+
+.region_ram     0x23f01b40        0x0
+                0x23f01b40                . = ALIGN (0x4)
+ *(.region_ram)
+
+.region_nocache
+                0x20000000        0x0
+                0x20000000                . = ALIGN (0x4)
+ *(.region_nocache)
+
+.bss            0x23f04000     0x847c
+                0x23f04000                . = ALIGN (0x4)
+                0x23f04000                PROVIDE (_szero = .)
+ *(.bss .bss.*)
+ .bss           0x23f04000       0x1c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .bss.sysObj    0x23f0401c        0x4 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+                0x23f0401c                sysObj
+ .bss.spuriousEventCount
+                0x23f04020        0x4 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+                0x23f04020                spuriousEventCount
+ *fill*         0x23f04024     0x3fdc 
+ .bss.trns_tbl  0x23f08000     0x4000 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .bss.gDrvAT25Obj
+                0x23f0c000       0x40 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .bss.flexcom5SpiObj
+                0x23f0c040       0x2c build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+                0x23f0c040                flexcom5SpiObj
+ .bss.isLastByteTransferInProgress.6444
+                0x23f0c06c        0x1 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ *fill*         0x23f0c06d        0x3 
+ .bss.appData   0x23f0c070      0x40c build/sam_9x75_eb/production/_ext/1360937237/app.o
+                0x23f0c070                appData
+ *(COMMON)
+                0x23f0c47c                . = ALIGN (0x4)
+                0x23f0c47c                PROVIDE (_ezero = .)
+
+.region_cache_aligned
+                0x23f0c47c        0x4
+                0x23f0c480                . = ALIGN (0x20)
+ *fill*         0x23f0c47c        0x4 
+ *(.region_cache_aligned)
+                0x23f0c480                . = ALIGN (0x20)
+
+.stacks         0x23f0c480     0x2140
+                0x23f0c4e0                . = (. + IRQ_STACK_SIZE)
+ *fill*         0x23f0c480       0x60 
+                0x23f0c4e0                . = ALIGN (0x8)
+                0x23f0c4e0                _irqstack = .
+                0x23f0c540                . = (. + FIQ_STACK_SIZE)
+ *fill*         0x23f0c4e0       0x60 
+                0x23f0c540                . = ALIGN (0x8)
+                0x23f0c540                _fiqstack = .
+                0x23f0c580                . = (. + ABT_STACK_SIZE)
+ *fill*         0x23f0c540       0x40 
+                0x23f0c580                . = ALIGN (0x8)
+                0x23f0c580                _abtstack = .
+                0x23f0c5c0                . = (. + UND_STACK_SIZE)
+ *fill*         0x23f0c580       0x40 
+                0x23f0c5c0                . = ALIGN (0x8)
+                0x23f0c5c0                _undstack = .
+                0x23f0d5c0                . = (. + SVC_STACK_SIZE)
+ *fill*         0x23f0c5c0     0x1000 
+                0x23f0d5c0                . = ALIGN (0x8)
+                0x23f0d5c0                _svcstack = .
+                0x23f0e5c0                . = (. + C_STACK_SIZE)
+ *fill*         0x23f0d5c0     0x1000 
+                0x23f0e5c0                . = ALIGN (0x8)
+                0x23f0e5c0                _cstack = .
+                0x23f0e5c0                _end = .
+                0x23f0e5c0                _ramcode_lma = _end
+
+.ramcode        0x00300040        0x0 load address 0x23f0e5c0
+                0x00300040                _sramcode = .
+ *(.ramcode_section)
+                0x00300040                _eramcode = .
+                0x23f0e5c0                _ramdata_lma = ((_end + _eramcode) - _sramcode)
+
+.ramdata        0x00300040        0x0 load address 0x23f0e5c0
+                0x00300040                _sramdata = .
+ *(.ramdata_section)
+                0x00300040                _eramdata = .
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libpic32c.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libm_nano.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a
+END GROUP
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+OUTPUT(dist/sam_9x75_eb/production/sam_9x75_eb.X.production.elf elf32-littlearm)
+LOAD stack
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .ARM.attributes
+                0x0000001d       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .ARM.attributes
+                0x00000048       0x2c build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x00000074       0x2c build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .ARM.attributes
+                0x000000a0       0x2c build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .ARM.attributes
+                0x000000cc       0x2c build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .ARM.attributes
+                0x000000f8       0x2c build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .ARM.attributes
+                0x00000124       0x2c build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .ARM.attributes
+                0x00000150       0x2c build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .ARM.attributes
+                0x0000017c       0x1c build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .ARM.attributes
+                0x00000198       0x1c build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .ARM.attributes
+                0x000001b4       0x2c build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .ARM.attributes
+                0x000001e0       0x2c build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .ARM.attributes
+                0x0000020c       0x2c build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .ARM.attributes
+                0x00000238       0x2c build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .ARM.attributes
+                0x00000264       0x2c build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .ARM.attributes
+                0x00000290       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000002ad       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000002ca       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000002f5       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000320       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+
+.comment        0x00000000       0x53
+ .comment       0x00000000       0x53 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+                                 0x54 (size before relaxing)
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-init.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a(lib_a-memcmp.o)
+
+.debug_info     0x00000000    0x10fb4
+ .debug_info    0x00000000     0x1001 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_info    0x00001001     0x223b build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_info    0x0000323c     0x14dc build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_info    0x00004718      0xe44 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_info    0x0000555c      0x8d9 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_info    0x00005e35      0xc35 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_info    0x00006a6a     0x173c build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_info    0x000081a6       0x22 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_info    0x000081c8       0x26 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .debug_info    0x000081ee     0x3652 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_info    0x0000b840     0x1737 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_info    0x0000cf77     0x1543 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_info    0x0000e4ba     0x1ab9 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_info    0x0000ff73      0xff5 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_info    0x00010f68       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x00010f8e       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000     0x1cd8
+ .debug_abbrev  0x00000000      0x20d build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_abbrev  0x0000020d      0x2d4 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_abbrev  0x000004e1      0x208 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_abbrev  0x000006e9      0x242 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_abbrev  0x0000092b      0x151 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_abbrev  0x00000a7c      0x155 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_abbrev  0x00000bd1      0x2e7 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_abbrev  0x00000eb8       0x12 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_abbrev  0x00000eca       0x14 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .debug_abbrev  0x00000ede      0x4f8 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_abbrev  0x000013d6      0x264 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_abbrev  0x0000163a      0x1cb build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_abbrev  0x00001805      0x2b9 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_abbrev  0x00001abe      0x1f2 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_abbrev  0x00001cb0       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00001cc4       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_loc      0x00000000     0x1bf8
+ .debug_loc     0x00000000       0x20 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_loc     0x00000020       0xf8 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_loc     0x00000118      0x584 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_loc     0x0000069c       0x4e build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_loc     0x000006ea       0x94 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_loc     0x0000077e      0x142 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_loc     0x000008c0      0xed0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_loc     0x00001790      0x413 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_loc     0x00001ba3       0x35 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_loc     0x00001bd8       0x20 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+
+.debug_aranges  0x00000000      0x398
+ .debug_aranges
+                0x00000000       0x20 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000020       0x20 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_aranges
+                0x00000040       0x40 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_aranges
+                0x00000080       0x78 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_aranges
+                0x000000f8       0x20 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_aranges
+                0x00000118       0x60 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_aranges
+                0x00000178       0x38 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_aranges
+                0x000001b0       0x30 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_aranges
+                0x000001e0       0x20 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .debug_aranges
+                0x00000200       0x88 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_aranges
+                0x00000288       0x60 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_aranges
+                0x000002e8       0x20 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_aranges
+                0x00000308       0x30 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_aranges
+                0x00000338       0x20 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_aranges
+                0x00000358       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000378       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_ranges   0x00000000      0x5d0
+ .debug_ranges  0x00000000       0x10 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_ranges  0x00000010       0x10 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_ranges  0x00000020       0x30 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_ranges  0x00000050      0x170 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_ranges  0x000001c0       0x10 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_ranges  0x000001d0       0x50 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_ranges  0x00000220       0x40 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_ranges  0x00000260       0x28 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_ranges  0x00000288      0x2b8 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_ranges  0x00000540       0x50 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_ranges  0x00000590       0x10 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_ranges  0x000005a0       0x20 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_ranges  0x000005c0       0x10 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+
+.debug_line     0x00000000     0x38e2
+ .debug_line    0x00000000      0x223 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_line    0x00000223      0x520 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_line    0x00000743      0x2d5 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_line    0x00000a18      0x710 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_line    0x00001128      0x198 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_line    0x000012c0      0x380 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_line    0x00001640      0x50d build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_line    0x00001b4d       0xf6 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_line    0x00001c43       0x56 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .debug_line    0x00001c99      0xc02 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_line    0x0000289b      0x6eb build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_line    0x00002f86      0x1d2 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_line    0x00003158      0x405 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_line    0x0000355d      0x230 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_line    0x0000378d       0xb9 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x00003846       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000      0x569
+ .debug_str     0x00000000       0x27 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_str     0x00000027       0x98 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_str     0x000000bf        0xe build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_str     0x000000cd        0xd build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_str     0x000000da        0x0 build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_str     0x000000da        0xa build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_str     0x000000e4        0xe build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_str     0x000000f2       0x95 build/sam_9x75_eb/production/_ext/2080577836/cstartup.o
+ .debug_str     0x00000187       0x97 build/sam_9x75_eb/production/_ext/2080577836/vectortrap.o
+ .debug_str     0x0000021e       0xc0 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_str     0x000002de       0x3b build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_str     0x00000319        0xe build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_str     0x00000327       0x52 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_str     0x00000379       0x18 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_str     0x00000391       0xec c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_str     0x0000047d       0xec c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0x5d0
+ .debug_frame   0x00000000       0x28 build/sam_9x75_eb/production/_ext/1360937237/main.o
+ .debug_frame   0x00000028       0x28 build/sam_9x75_eb/production/_ext/2080577836/initialization.o
+ .debug_frame   0x00000050       0x60 build/sam_9x75_eb/production/_ext/2080577836/interrupts.o
+ .debug_frame   0x000000b0       0xf8 build/sam_9x75_eb/production/_ext/601893115/plib_mmu.o
+ .debug_frame   0x000001a8       0x2c build/sam_9x75_eb/production/_ext/601902766/plib_clk.o
+ .debug_frame   0x000001d4       0xa0 build/sam_9x75_eb/production/_ext/601890362/plib_pio.o
+ .debug_frame   0x00000274       0x64 build/sam_9x75_eb/production/_ext/601904789/plib_aic.o
+ .debug_frame   0x000002d8      0x178 build/sam_9x75_eb/production/_ext/1849464111/drv_at25.o
+ .debug_frame   0x00000450       0xd0 build/sam_9x75_eb/production/_ext/862561412/plib_flexcom5_spi_master.o
+ .debug_frame   0x00000520       0x20 build/sam_9x75_eb/production/_ext/626097884/bsp.o
+ .debug_frame   0x00000540       0x48 build/sam_9x75_eb/production/_ext/1360937237/app.o
+ .debug_frame   0x00000588       0x28 build/sam_9x75_eb/production/_ext/2080577836/tasks.o
+ .debug_frame   0x000005b0       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+
+.stack          0x23f0e7e0      0x100
+ .stack         0x23f0e7e0      0x100 stack
+
+.eh_frame%z1    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
