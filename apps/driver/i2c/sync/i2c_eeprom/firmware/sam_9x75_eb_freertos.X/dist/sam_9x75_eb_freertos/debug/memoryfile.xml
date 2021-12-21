@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/sam_9x75_eb_freertos/debug/sam_9x75_eb_freertos.X.debug.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>251658240</length>
+      <used>97312</used>
+      <free>251560928</free>
+    </memory>
+  </executable>
+</project>
