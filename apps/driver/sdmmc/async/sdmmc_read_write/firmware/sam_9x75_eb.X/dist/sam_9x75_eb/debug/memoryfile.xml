@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/sam_9x75_eb/debug/sam_9x75_eb.X.debug.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>251658240</length>
+      <used>187808</used>
+      <free>251470432</free>
+    </memory>
+  </executable>
+</project>
