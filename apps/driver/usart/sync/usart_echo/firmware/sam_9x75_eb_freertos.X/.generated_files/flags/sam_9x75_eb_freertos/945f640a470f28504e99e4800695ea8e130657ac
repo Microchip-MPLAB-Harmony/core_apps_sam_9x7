@@ -1,1 +1,0 @@
-$(MP_EXTRA_AS_PRE)  -D__DEBUG  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_sam_9x75_eb_freertos=$(CND_CONF)    -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--defsym=__ICD2RAM=1,--defsym=__MPLAB_DEBUG=1,--gdwarf-2,--defsym=__DEBUG=1 -mdfp="${DFP_DIR}"D:\H3\core_apps_sam_9x7\apps\driver\usart\sync\usart_echo\firmware\src\config\sam_9x75_eb_freertos\cstartup.S
