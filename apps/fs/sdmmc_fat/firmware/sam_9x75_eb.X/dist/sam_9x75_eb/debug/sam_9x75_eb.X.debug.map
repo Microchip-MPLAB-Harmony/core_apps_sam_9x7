@@ -1,0 +1,1860 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o (__aeabi_uidiv)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+                              build/sam_9x75_eb/debug/_ext/848834719/sys_time.o (__aeabi_idiv)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+                              c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+                              build/sam_9x75_eb/debug/_ext/848834719/sys_time.o (__aeabi_uldivmod)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+                              c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+                              build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o (__libc_init_array)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o (memcpy)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+                              build/sam_9x75_eb/debug/_ext/1576319332/diskio.o (memmove)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o (memset)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o (strcmp)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o (strcpy)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o (strlen)
+c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+                              build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o (strncmp)
+
+Microchip PIC32 Memory-Usage Report
+        --------------------------------------------------------------------------
+         Total Program Memory used  :           0           0  
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.text                   0x23f00000         0xe47c       58492   
+.data                   0x23f0e47c           0x5c          92  Initialized data 
+.ARM.exidx              0x23f0e4d8            0x8           8   
+.relocate               0x23f0e4e0           0x40          64   
+.bss                    0x23f10000         0x8678       34424  Uninitialized data 
+.region_cache_aligned   0x23f18678            0x8           8   
+.stacks                 0x23f18680         0x2140        8512   
+         Total RAM used  :     0x18ce0      101600  0.0% of 0xf000000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :     0x18ce0      101600  0.0% of 0xf000000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x23f1a7c8          0x200         512  Reserved for heap 
+stack                   0x23f1a9e0      0xc0e5618   202266136  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .xc_stack_usage
+                0x00000000       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .data          0x00000000        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .xc_stack_usage
+                0x00000000       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileNameGet
+                0x00000000       0x88 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileSeek
+                0x00000000      0x178 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileTell
+                0x00000000       0xc0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileSize
+                0x00000000       0xc0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileStat
+                0x00000000      0x100 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileError
+                0x00000000       0x2c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirOpen
+                0x00000000      0x1a0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirClose
+                0x00000000       0xcc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirRead
+                0x00000000       0xcc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirRewind
+                0x00000000       0xc4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirSearch
+                0x00000000      0x274 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileStringGet
+                0x00000000       0xf8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DirectoryChange
+                0x00000000       0xf4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_CurrentWorkingDirectoryGet
+                0x00000000      0x1d0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_CurrentDriveGet
+                0x00000000       0x80 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DriveLabelGet
+                0x00000000      0x11c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileSync
+                0x00000000       0xc4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileTruncate
+                0x00000000       0xbc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileCharacterPut
+                0x00000000       0xd0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileStringPut
+                0x00000000       0xd4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FilePrintf
+                0x00000000       0xf4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileTestError
+                0x00000000       0xb8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileDirectoryModeSet
+                0x00000000      0x104 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileDirectoryTimeSet
+                0x00000000      0x114 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_FileDirectoryRenameMove
+                0x00000000      0x12c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DriveLabelSet
+                0x00000000      0x138 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DriveFormat
+                0x00000000       0xd8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DrivePartition
+                0x00000000       0xd4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_DriveSectorGet
+                0x00000000      0x130 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_DeRegister
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_Read
+                0x00000000       0x80 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_AddressGet
+                0x00000000       0x34 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_CommandStatusGet
+                0x00000000       0x44 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .text.FATFS_getfree
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .text.DefaultInterruptHandler
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .text.SYSC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .text.ECC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .text.MC_SharedHandler
+                0x00000000        0x4 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .text._mon_getc
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .text._mon_putc
+                0x00000000        0x4 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_info    0x00000000      0x2a0 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_abbrev  0x00000000       0x80 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_loc     0x00000000       0x25 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_aranges
+                0x00000000       0x28 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_ranges  0x00000000       0x18 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_line    0x00000000       0x81 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_str     0x00000000        0x0 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .comment       0x00000000       0x54 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .debug_frame   0x00000000       0x30 build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .ARM.attributes
+                0x00000000       0x2c build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text.icache_Disable
+                0x00000000       0x20 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanAll
+                0x00000000       0x38 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanInvalidateAll
+                0x00000000       0x38 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text.dcache_CleanInvalidateByAddr
+                0x00000000       0x2c build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text.dcache_Disable
+                0x00000000       0x24 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortRead
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortWrite
+                0x00000000       0x18 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortLatchRead
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortSet
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortClear
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortToggle
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortInputEnable
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text.PIO_PortOutputEnable
+                0x00000000        0x8 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .text.AIC_INT_IrqEnable
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .text.SDMMC0_ErrorGet
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .text.SDMMC0_ClockDisable
+                0x00000000       0x1c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .text.TC0_CH0_TimerPeriodGet
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text.DRV_SDMMC_RegisterWithSysFs
+                0x00000000        0x4 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text.DRV_SDMMC_Status
+                0x00000000       0x18 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text.DRV_SDMMC_IsWriteProtected
+                0x00000000       0x54 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_IsEnabled
+                0x00000000       0x14 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_Enable
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceRestore
+                0x00000000       0x30 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusGet
+                0x00000000       0x78 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusSet
+                0x00000000       0x28 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text.SYS_INT_SourceStatusClear
+                0x00000000       0x28 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableCaches
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableCaches
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableICache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableICache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_InvalidateICache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_EnableDCache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_DisableDCache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_InvalidateDCache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanDCache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache_by_Addr
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .text          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .data          0x00000000        0x0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .bss           0x00000000        0x0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_Deinitialize
+                0x00000000       0x4c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_Status
+                0x00000000       0x18 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_FrequencyGet
+                0x00000000       0x10 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_Counter64Get
+                0x00000000       0x68 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_CounterGet
+                0x00000000        0xc build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_CounterSet
+                0x00000000       0x30 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_CountToUS
+                0x00000000       0x64 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_CountToMS
+                0x00000000       0x5c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_USToCount
+                0x00000000       0x30 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_MSToCount
+                0x00000000       0x2c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerCreate
+                0x00000000       0x2c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerReload
+                0x00000000       0xec build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerStop
+                0x00000000       0x6c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerCounterGet
+                0x00000000       0xe4 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_DelayUS
+                0x00000000       0x88 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_CallbackRegisterUS
+                0x00000000       0xa0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .xc_stack_usage
+                0x00000000       0x35 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .xc_stack_usage
+                0x00000000       0x33 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .xc_stack_usage
+                0x00000000       0x36 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .xc_stack_usage
+                0x00000000       0x1e c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .xc_stack_usage
+                0x00000000       0x1a c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .xc_stack_usage
+                0x00000000       0x1f c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .xc_stack_usage
+                0x00000000       0x15 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .text.strcpy   0x00000000       0x18 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .comment       0x00000000       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000000       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+ .xc_stack_usage
+                0x00000000       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .xc_stack_usage
+                0x00000000       0x15 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .comment       0x00000000       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+ .text          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .data          0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram             0x00300000         0x00010000         xw
+ram              0x21000000         0x0f000000         xwl !r
+ram_nocache      0x20000000         0x01000000         !xrw
+rom              0x00000000         0x00000000         xrl
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+LOAD build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+LOAD build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+LOAD build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+LOAD build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+LOAD build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+LOAD build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+LOAD build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+LOAD build/sam_9x75_eb/debug/_ext/1360937237/main.o
+LOAD build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+LOAD build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+LOAD build/sam_9x75_eb/debug/_ext/400366566/xc32_monitor.o
+LOAD build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+LOAD build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+LOAD build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+LOAD build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+LOAD build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+LOAD build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+LOAD build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+LOAD build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+LOAD build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+LOAD build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+LOAD build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+LOAD build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+LOAD build/sam_9x75_eb/debug/_ext/1360937237/app.o
+LOAD build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+LOAD build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00001000                C_STACK_SIZE = 0x1000
+                0x00000060                IRQ_STACK_SIZE = 0x60
+                0x00000060                FIQ_STACK_SIZE = 0x60
+                0x00001000                SVC_STACK_SIZE = 0x1000
+                0x00000040                ABT_STACK_SIZE = 0x40
+                0x00000040                UND_STACK_SIZE = 0x40
+
+.text           0x23f00000     0xe47c
+                0x23f00000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (_sfixed = .)
+ *(.textEntry)
+ .textEntry     0x23f00000      0x10c build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+                0x23f00000                entry
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x23f0010c       0x6c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .text.DRV_SDMMC_RegisterWithSysFs
+                0x23f00178       0x1c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+                0x23f00178                DRV_SDMMC_RegisterWithSysFs
+ .text.SYS_FS_GetDisk
+                0x23f00194      0x168 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .text.SYS_FS_Initialize
+                0x23f002fc       0xb0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f002fc                SYS_FS_Initialize
+ .text.SYS_FS_Tasks
+                0x23f003ac        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f003ac                SYS_FS_Tasks
+ .text.SYS_FS_EventHandlerSet
+                0x23f003b8        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f003b8                SYS_FS_EventHandlerSet
+ .text.SYS_FS_Mount
+                0x23f003c4      0x2b8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f003c4                SYS_FS_Mount
+ .text.SYS_FS_Unmount
+                0x23f0067c      0x1a8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f0067c                SYS_FS_Unmount
+ .text.SYS_FS_FileOpen
+                0x23f00824      0x230 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00824                SYS_FS_FileOpen
+ .text.SYS_FS_FileClose
+                0x23f00a54       0xcc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00a54                SYS_FS_FileClose
+ .text.SYS_FS_FileRead
+                0x23f00b20       0xd0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00b20                SYS_FS_FileRead
+ .text.SYS_FS_FileEOF
+                0x23f00bf0       0xb8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00bf0                SYS_FS_FileEOF
+ .text.SYS_FS_Error
+                0x23f00ca8       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00ca8                SYS_FS_Error
+ .text.SYS_FS_FileWrite
+                0x23f00cb8       0xd8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00cb8                SYS_FS_FileWrite
+ .text.SYS_FS_DirectoryMake
+                0x23f00d90       0xf4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00d90                SYS_FS_DirectoryMake
+ .text.SYS_FS_FileDirectoryRemove
+                0x23f00e84       0xf4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00e84                SYS_FS_FileDirectoryRemove
+ .text.SYS_FS_CurrentDriveSet
+                0x23f00f78      0x124 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f00f78                SYS_FS_CurrentDriveSet
+ .text.SYS_FS_MEDIA_MANAGER_IsFSFat
+                0x23f0109c       0x5c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_EventHandler
+                0x23f010f8       0x54 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f010f8                SYS_FS_MEDIA_MANAGER_EventHandler
+ .text._SYS_FS_MEDIA_MANAGER_HandleMediaDetach
+                0x23f0114c       0x9c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .text.SYS_FS_MEDIA_MANAGER_Register
+                0x23f011e8       0x6c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f011e8                SYS_FS_MEDIA_MANAGER_Register
+ .text.SYS_FS_MEDIA_MANAGER_SectorRead
+                0x23f01254       0x94 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01254                SYS_FS_MEDIA_MANAGER_SectorRead
+ .text.SYS_FS_MEDIA_MANAGER_SectorWrite
+                0x23f012e8      0x26c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f012e8                SYS_FS_MEDIA_MANAGER_SectorWrite
+ .text.SYS_FS_MEDIA_MANAGER_MediaStatusGet
+                0x23f01554       0xac build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01554                SYS_FS_MEDIA_MANAGER_MediaStatusGet
+ .text.SYS_FS_MEDIA_MANAGER_VolumePropertyGet
+                0x23f01600       0x58 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01600                SYS_FS_MEDIA_MANAGER_VolumePropertyGet
+ .text.SYS_FS_MEDIA_MANAGER_EventHandlerSet
+                0x23f01658       0x38 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01658                SYS_FS_MEDIA_MANAGER_EventHandlerSet
+ .text.SYS_FS_MEDIA_MANAGER_RegisterTransferHandler
+                0x23f01690       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01690                SYS_FS_MEDIA_MANAGER_RegisterTransferHandler
+ .text.SYS_FS_MEDIA_MANAGER_GetMediaGeometry
+                0x23f016a0       0x38 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f016a0                SYS_FS_MEDIA_MANAGER_GetMediaGeometry
+ .text.SYS_FS_MEDIA_MANAGER_TransferTask
+                0x23f016d8       0x40 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f016d8                SYS_FS_MEDIA_MANAGER_TransferTask
+ .text.SYS_FS_MEDIA_MANAGER_Tasks
+                0x23f01718      0x6cc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f01718                SYS_FS_MEDIA_MANAGER_Tasks
+ .text.FATFS_mount
+                0x23f01de4       0xe0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f01de4                FATFS_mount
+ .text.FATFS_unmount
+                0x23f01ec4      0x108 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f01ec4                FATFS_unmount
+ .text.FATFS_open
+                0x23f01fcc       0xf8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f01fcc                FATFS_open
+ .text.FATFS_read
+                0x23f020c4       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f020c4                FATFS_read
+ .text.FATFS_close
+                0x23f020d4       0x34 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f020d4                FATFS_close
+ .text.FATFS_lseek
+                0x23f02108       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02108                FATFS_lseek
+ .text.FATFS_stat
+                0x23f02118       0x48 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02118                FATFS_stat
+ .text.FATFS_getlabel
+                0x23f02160        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02160                FATFS_getlabel
+ .text.FATFS_getcwd
+                0x23f0216c        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f0216c                FATFS_getcwd
+ .text.FATFS_gets
+                0x23f02178       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02178                FATFS_gets
+ .text.FATFS_opendir
+                0x23f02188       0x94 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02188                FATFS_opendir
+ .text.FATFS_readdir
+                0x23f0221c       0x4c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f0221c                FATFS_readdir
+ .text.FATFS_closedir
+                0x23f02268       0x34 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02268                FATFS_closedir
+ .text.FATFS_chdir
+                0x23f0229c        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f0229c                FATFS_chdir
+ .text.FATFS_chdrive
+                0x23f022a8       0x30 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f022a8                FATFS_chdrive
+ .text.FATFS_write
+                0x23f022d8       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f022d8                FATFS_write
+ .text.FATFS_tell
+                0x23f022e8        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f022e8                FATFS_tell
+ .text.FATFS_eof
+                0x23f022f0       0x18 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f022f0                FATFS_eof
+ .text.FATFS_size
+                0x23f02308        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02308                FATFS_size
+ .text.FATFS_mkdir
+                0x23f02310        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02310                FATFS_mkdir
+ .text.FATFS_unlink
+                0x23f0231c        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f0231c                FATFS_unlink
+ .text.FATFS_setlabel
+                0x23f02328        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02328                FATFS_setlabel
+ .text.FATFS_truncate
+                0x23f02334       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02334                FATFS_truncate
+ .text.FATFS_chmod
+                0x23f02344        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02344                FATFS_chmod
+ .text.FATFS_utime
+                0x23f02350        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02350                FATFS_utime
+ .text.FATFS_rename
+                0x23f0235c        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f0235c                FATFS_rename
+ .text.FATFS_sync
+                0x23f02368       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02368                FATFS_sync
+ .text.FATFS_putc
+                0x23f02378       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02378                FATFS_putc
+ .text.FATFS_puts
+                0x23f02388       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02388                FATFS_puts
+ .text.FATFS_printf
+                0x23f02398       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02398                FATFS_printf
+ .text.FATFS_error
+                0x23f023a8       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f023a8                FATFS_error
+ .text.FATFS_mkfs
+                0x23f023b8       0x40 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f023b8                FATFS_mkfs
+ .text.FATFS_fdisk
+                0x23f023f8        0xc build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f023f8                FATFS_fdisk
+ .text.FATFS_getclusters
+                0x23f02404       0x70 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+                0x23f02404                FATFS_getclusters
+ .text.ld_dword
+                0x23f02474       0x20 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.st_dword
+                0x23f02494       0x20 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.mem_cpy  0x23f024b4       0x24 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.mem_set  0x23f024d8       0x14 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.chk_lock
+                0x23f024ec       0xc0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.inc_lock
+                0x23f025ac      0x134 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dec_lock
+                0x23f026e0       0x78 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.clst2sect
+                0x23f02758       0x28 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.sum_sfn  0x23f02780       0x2c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.get_ldnumber
+                0x23f027ac       0x7c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.validate
+                0x23f02828       0x88 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.sync_window
+                0x23f028b0       0x84 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.move_window
+                0x23f02934       0x60 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_clear
+                0x23f02994       0x9c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.tchar2uni
+                0x23f02a30       0x3c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.create_partition
+                0x23f02a6c      0x290 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.sync_fs  0x23f02cfc       0xcc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.put_fat  0x23f02dc8      0x1ac build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.st_clust
+                0x23f02f74       0x2c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.get_fileinfo
+                0x23f02fa0      0x258 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.get_fat  0x23f031f8      0x154 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_sdi  0x23f0334c      0x128 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.create_chain
+                0x23f03474      0x1bc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.remove_chain
+                0x23f03630       0xe4 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_next
+                0x23f03714      0x168 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_alloc
+                0x23f0387c       0x88 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_remove
+                0x23f03904       0x84 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_find
+                0x23f03988      0x2bc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_register
+                0x23f03c44      0x3f4 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.check_fs
+                0x23f04038      0x174 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.mount_volume
+                0x23f041ac      0x58c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.dir_read
+                0x23f04738      0x208 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.ld_clust
+                0x23f04940       0x2c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.follow_path
+                0x23f0496c      0x5e0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.f_mount  0x23f04f4c       0xd8 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f04f4c                f_mount
+ .text.f_open   0x23f05024      0x3c4 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05024                f_open
+ .text.f_read   0x23f053e8      0x28c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f053e8                f_read
+ .text.f_write  0x23f05674      0x2f0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05674                f_write
+ .text.putc_bfd
+                0x23f05964       0x68 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.putc_flush
+                0x23f059cc       0x64 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .text.f_sync   0x23f05a30       0xf0 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05a30                f_sync
+ .text.f_close  0x23f05b20       0x4c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05b20                f_close
+ .text.f_chdrive
+                0x23f05b6c       0x34 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05b6c                f_chdrive
+ .text.f_chdir  0x23f05ba0       0x9c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05ba0                f_chdir
+ .text.f_getcwd
+                0x23f05c3c      0x214 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05c3c                f_getcwd
+ .text.f_lseek  0x23f05e50      0x284 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f05e50                f_lseek
+ .text.f_opendir
+                0x23f060d4       0xfc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f060d4                f_opendir
+ .text.f_closedir
+                0x23f061d0       0x50 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f061d0                f_closedir
+ .text.f_readdir
+                0x23f06220       0x74 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06220                f_readdir
+ .text.f_stat   0x23f06294       0x70 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06294                f_stat
+ .text.f_getfree
+                0x23f06304      0x164 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06304                f_getfree
+ .text.f_truncate
+                0x23f06468      0x150 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06468                f_truncate
+ .text.f_unlink
+                0x23f065b8      0x14c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f065b8                f_unlink
+ .text.f_mkdir  0x23f06704      0x1b8 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06704                f_mkdir
+ .text.f_rename
+                0x23f068bc      0x1bc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f068bc                f_rename
+ .text.f_chmod  0x23f06a78       0x94 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06a78                f_chmod
+ .text.f_utime  0x23f06b0c       0x8c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06b0c                f_utime
+ .text.f_getlabel
+                0x23f06b98      0x13c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06b98                f_getlabel
+ .text.f_setlabel
+                0x23f06cd4      0x288 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06cd4                f_setlabel
+ .text.f_mkfs   0x23f06f5c      0xbdc build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f06f5c                f_mkfs
+ .text.f_fdisk  0x23f07b38       0x5c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f07b38                f_fdisk
+ .text.f_gets   0x23f07b94       0x98 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f07b94                f_gets
+ .text.f_putc   0x23f07c2c       0x40 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f07c2c                f_putc
+ .text.f_puts   0x23f07c6c       0x54 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f07c6c                f_puts
+ .text.f_printf
+                0x23f07cc0      0x490 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+                0x23f07cc0                f_printf
+ .text.ff_uni2oem
+                0x23f08150       0x88 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+                0x23f08150                ff_uni2oem
+ .text.ff_oem2uni
+                0x23f081d8       0x38 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+                0x23f081d8                ff_oem2uni
+ .text.ff_wtoupper
+                0x23f08210      0x168 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+                0x23f08210                ff_wtoupper
+ .text.diskEventHandler
+                0x23f08378       0x44 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f08378                diskEventHandler
+ .text.disk_checkCommandStatus
+                0x23f083bc       0x78 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .text.disk_read_aligned
+                0x23f08434       0x4c build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .text.disk_status
+                0x23f08480        0x8 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f08480                disk_status
+ .text.disk_initialize
+                0x23f08488       0x18 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f08488                disk_initialize
+ .text.disk_read
+                0x23f084a0      0x114 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f084a0                disk_read
+ .text.disk_write
+                0x23f085b4      0x140 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f085b4                disk_write
+ .text.disk_ioctl
+                0x23f086f4       0x64 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f086f4                disk_ioctl
+ .text.get_fattime
+                0x23f08758        0xc build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+                0x23f08758                get_fattime
+ .text.main     0x23f08764       0x14 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+                0x23f08764                main
+ .text.SYS_Initialize
+                0x23f08778       0xd8 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f08778                SYS_Initialize
+ .text.DefaultInterruptHandlerForSpurious
+                0x23f08850       0x18 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+                0x23f08850                DefaultInterruptHandlerForSpurious
+ .text.icache_InvalidateAll
+                0x23f08868        0xc build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f08868                icache_InvalidateAll
+ .text.icache_Enable
+                0x23f08874       0x20 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f08874                icache_Enable
+ .text.dcache_InvalidateAll
+                0x23f08894       0x38 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f08894                dcache_InvalidateAll
+ .text.dcache_InvalidateByAddr
+                0x23f088cc       0x2c build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f088cc                dcache_InvalidateByAddr
+ .text.dcache_CleanByAddr
+                0x23f088f8       0x2c build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f088f8                dcache_CleanByAddr
+ .text.dcache_Enable
+                0x23f08924       0x20 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f08924                dcache_Enable
+ .text.MMU_Initialize
+                0x23f08944      0x20c build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+                0x23f08944                MMU_Initialize
+ .text.CLK_Initialize
+                0x23f08b50       0xbc build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+                0x23f08b50                CLK_Initialize
+ .text.PIO_Initialize
+                0x23f08c0c       0xdc build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+                0x23f08c0c                PIO_Initialize
+ .text.AIC_INT_Initialize
+                0x23f08ce8      0x110 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+                0x23f08ce8                AIC_INT_Initialize
+ .text.AIC_INT_IrqDisable
+                0x23f08df8       0x30 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+                0x23f08df8                AIC_INT_IrqDisable
+ .text.AIC_INT_IrqRestore
+                0x23f08e28       0x28 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+                0x23f08e28                AIC_INT_IrqRestore
+ .text          0x23f08e50       0xa0 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .text.SDMMC0_ErrorReset
+                0x23f08ef0       0x1c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f08ef0                SDMMC0_ErrorReset
+ .text.SDMMC0_InterruptHandler
+                0x23f08f0c      0x15c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f08f0c                SDMMC0_InterruptHandler
+ .text.SDMMC0_CommandErrorGet
+                0x23f09068       0x14 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09068                SDMMC0_CommandErrorGet
+ .text.SDMMC0_DataErrorGet
+                0x23f0907c       0x14 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f0907c                SDMMC0_DataErrorGet
+ .text.SDMMC0_BusWidthSet
+                0x23f09090       0x1c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09090                SDMMC0_BusWidthSet
+ .text.SDMMC0_SpeedModeSet
+                0x23f090ac       0x1c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f090ac                SDMMC0_SpeedModeSet
+ .text.SDMMC0_IsCmdLineBusy
+                0x23f090c8       0x10 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f090c8                SDMMC0_IsCmdLineBusy
+ .text.SDMMC0_IsDatLineBusy
+                0x23f090d8       0x14 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f090d8                SDMMC0_IsDatLineBusy
+ .text.SDMMC0_BlockSizeSet
+                0x23f090ec       0x20 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f090ec                SDMMC0_BlockSizeSet
+ .text.SDMMC0_BlockCountSet
+                0x23f0910c        0xc build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f0910c                SDMMC0_BlockCountSet
+ .text.SDMMC0_ClockEnable
+                0x23f09118       0x30 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09118                SDMMC0_ClockEnable
+ .text.SDMMC0_DmaSetup
+                0x23f09148       0x68 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09148                SDMMC0_DmaSetup
+ .text.SDMMC0_ClockSet
+                0x23f091b0      0x154 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f091b0                SDMMC0_ClockSet
+ .text.SDMMC0_ResponseRead
+                0x23f09304       0x88 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09304                SDMMC0_ResponseRead
+ .text.SDMMC0_CommandSend
+                0x23f0938c      0x1e4 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f0938c                SDMMC0_CommandSend
+ .text.SDMMC0_ModuleInit
+                0x23f09570       0x78 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09570                SDMMC0_ModuleInit
+ .text.SDMMC0_Initialize
+                0x23f095e8       0x28 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f095e8                SDMMC0_Initialize
+ .text.SDMMC0_CallbackRegister
+                0x23f09610       0x18 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+                0x23f09610                SDMMC0_CallbackRegister
+ .text.TC0_CH0_TimerInitialize
+                0x23f09628       0x38 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09628                TC0_CH0_TimerInitialize
+ .text.TC0_CH0_TimerStart
+                0x23f09660       0x14 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09660                TC0_CH0_TimerStart
+ .text.TC0_CH0_TimerStop
+                0x23f09674       0x14 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09674                TC0_CH0_TimerStop
+ .text.TC0_CH0_TimerFrequencyGet
+                0x23f09688        0xc build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09688                TC0_CH0_TimerFrequencyGet
+ .text.TC0_CH0_TimerPeriodSet
+                0x23f09694       0x10 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09694                TC0_CH0_TimerPeriodSet
+ .text.TC0_CH0_TimerCompareSet
+                0x23f096a4       0x10 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f096a4                TC0_CH0_TimerCompareSet
+ .text.TC0_CH0_TimerCounterGet
+                0x23f096b4       0x10 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f096b4                TC0_CH0_TimerCounterGet
+ .text.TC0_CH0_TimerCallbackRegister
+                0x23f096c4       0x14 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f096c4                TC0_CH0_TimerCallbackRegister
+ .text.TC0_CH0_InterruptHandler
+                0x23f096d8       0x3c build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f096d8                TC0_CH0_InterruptHandler
+ .text.TC0_InterruptHandler
+                0x23f09714        0xc build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f09714                TC0_InterruptHandler
+ .text._DRV_SDMMC_DriverHandleValidate
+                0x23f09720       0xa4 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text._DRV_SDMMC_PlibCallbackHandler
+                0x23f097c4       0x90 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text._DRV_SDMMC_TimerCallback
+                0x23f09854        0xc build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text._DRV_SDMMC_InitCardContext
+                0x23f09860       0x90 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text._DRV_SDMMC_CommandSend
+                0x23f098f0      0x1cc build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .text.DRV_SDMMC_Initialize
+                0x23f09abc      0x14c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f09abc                DRV_SDMMC_Initialize
+ .text.DRV_SDMMC_Open
+                0x23f09c08      0x18c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f09c08                DRV_SDMMC_Open
+ .text.DRV_SDMMC_Close
+                0x23f09d94       0xfc build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f09d94                DRV_SDMMC_Close
+ .text.DRV_SDMMC_SetupXfer
+                0x23f09e90      0x248 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f09e90                DRV_SDMMC_SetupXfer
+ .text.DRV_SDMMC_AsyncRead
+                0x23f0a0d8       0x24 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a0d8                DRV_SDMMC_AsyncRead
+ .text.DRV_SDMMC_AsyncWrite
+                0x23f0a0fc       0x24 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a0fc                DRV_SDMMC_AsyncWrite
+ .text.DRV_SDMMC_CommandStatus
+                0x23f0a120       0x84 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a120                DRV_SDMMC_CommandStatus
+ .text.DRV_SDMMC_GeometryGet
+                0x23f0a1a4       0x30 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a1a4                DRV_SDMMC_GeometryGet
+ .text.DRV_SDMMC_EventHandlerSet
+                0x23f0a1d4       0x58 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a1d4                DRV_SDMMC_EventHandlerSet
+ .text.DRV_SDMMC_IsAttached
+                0x23f0a22c       0x44 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a22c                DRV_SDMMC_IsAttached
+ .text.DRV_SDMMC_Tasks
+                0x23f0a270     0x2530 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+                0x23f0a270                DRV_SDMMC_Tasks
+ .text.BSP_Initialize
+                0x23f0c7a0       0x20 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+                0x23f0c7a0                BSP_Initialize
+ .text.SYS_INT_Disable
+                0x23f0c7c0        0xc build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+                0x23f0c7c0                SYS_INT_Disable
+ .text.SYS_INT_Restore
+                0x23f0c7cc        0xc build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+                0x23f0c7cc                SYS_INT_Restore
+ .text.SYS_INT_SourceIsEnabled
+                0x23f0c7d8       0x28 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+                0x23f0c7d8                SYS_INT_SourceIsEnabled
+ .text.SYS_INT_SourceEnable
+                0x23f0c800       0x28 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+                0x23f0c800                SYS_INT_SourceEnable
+ .text.SYS_INT_SourceDisable
+                0x23f0c828       0x3c build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+                0x23f0c828                SYS_INT_SourceDisable
+ .text.SYS_CACHE_InvalidateDCache_by_Addr
+                0x23f0c864        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+                0x23f0c864                SYS_CACHE_InvalidateDCache_by_Addr
+ .text.SYS_CACHE_CleanDCache_by_Addr
+                0x23f0c870        0xc build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+                0x23f0c870                SYS_CACHE_CleanDCache_by_Addr
+ .text.APP_SysFSEventHandler
+                0x23f0c87c       0x74 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .text.APP_Initialize
+                0x23f0c8f0       0x24 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+                0x23f0c8f0                APP_Initialize
+ .text.APP_Tasks
+                0x23f0c914      0x1cc build/sam_9x75_eb/debug/_ext/1360937237/app.o
+                0x23f0c914                APP_Tasks
+ .text.SYS_Tasks
+                0x23f0cae0       0x20 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+                0x23f0cae0                SYS_Tasks
+ .text.SYS_TIME_GetTimerObject
+                0x23f0cb00       0x70 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_HwTimerCompareUpdate
+                0x23f0cb70       0xfc build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_Counter64Update
+                0x23f0cc6c       0x28 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_RemoveFromList
+                0x23f0cc94       0x94 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_AddToList
+                0x23f0cd28       0xe0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_GetElapsedCount
+                0x23f0ce08       0x1c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_UpdateTimerList
+                0x23f0ce24       0x74 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerAdd
+                0x23f0ce98       0x60 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_ResourceLock
+                0x23f0cef8       0x54 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_ResourceUnlock
+                0x23f0cf4c       0x28 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerObjectCreate
+                0x23f0cf74      0x12c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_Initialize
+                0x23f0d0a0      0x118 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d0a0                SYS_TIME_Initialize
+ .text.SYS_TIME_TimerDestroy
+                0x23f0d1b8       0x6c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d1b8                SYS_TIME_TimerDestroy
+ .text.SYS_TIME_PLIBCallback
+                0x23f0d224      0x168 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .text.SYS_TIME_TimerStart
+                0x23f0d38c       0x94 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d38c                SYS_TIME_TimerStart
+ .text.SYS_TIME_TimerPeriodHasExpired
+                0x23f0d420       0x40 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d420                SYS_TIME_TimerPeriodHasExpired
+ .text.SYS_TIME_DelayMS
+                0x23f0d460       0x84 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d460                SYS_TIME_DelayMS
+ .text.SYS_TIME_DelayIsComplete
+                0x23f0d4e4       0x28 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d4e4                SYS_TIME_DelayIsComplete
+ .text.SYS_TIME_CallbackRegisterMS
+                0x23f0d50c       0x9c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0d50c                SYS_TIME_CallbackRegisterMS
+ .text          0x23f0d5a8      0x20c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+                0x23f0d5a8                __aeabi_uidiv
+                0x23f0d5a8                __udivsi3
+                0x23f0d794                __aeabi_uidivmod
+ .text          0x23f0d7b4      0x240 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+                0x23f0d7b4                __divsi3
+                0x23f0d7b4                __aeabi_idiv
+                0x23f0d9d4                __aeabi_idivmod
+ .text          0x23f0d9f4        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+                0x23f0d9f4                __aeabi_idiv0
+                0x23f0d9f4                __aeabi_ldiv0
+ .text          0x23f0d9f8       0x3c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x23f0d9f8                __aeabi_uldivmod
+ .text          0x23f0da34      0x12c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+                0x23f0da34                __udivmoddi4
+ .text.__libc_init_array
+                0x23f0db60       0x70 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+                0x23f0db60                __libc_init_array
+ .text.memcpy   0x23f0dbd0       0x1c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+                0x23f0dbd0                memcpy
+ .text.memmove  0x23f0dbec       0x4c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+                0x23f0dbec                memmove
+ .text.memset   0x23f0dc38       0x18 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+                0x23f0dc38                memset
+ .text          0x23f0dc50       0x1c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+                0x23f0dc50                strcmp
+ .text          0x23f0dc6c        0xe c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+                0x23f0dc6c                strlen
+ *fill*         0x23f0dc7a        0x2 
+ .text.strncmp  0x23f0dc7c       0x4c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+                0x23f0dc7c                strncmp
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.sdmmcMediaFunctions
+                0x23f0dcc8       0x30 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+                0x23f0dcc8                sdmmcMediaFunctions
+ .rodata        0x23f0dcf8        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .rodata        0x23f0dd00       0x20 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .rodata.gPartitionTypeOffset
+                0x23f0dd20        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f0dd20                gPartitionTypeOffset
+ .rodata        0x23f0dd28       0x54 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.ExCvt  0x23f0dd7c       0x80 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.LfnOfs
+                0x23f0ddfc       0x10 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.badchr.7289
+                0x23f0de0c       0x14 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.cst.7326
+                0x23f0de20       0x10 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.cst32.7327
+                0x23f0de30       0x10 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.defopt.7328
+                0x23f0de40       0x10 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .rodata.cvt1.6583
+                0x23f0de50      0x1f4 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .rodata.cvt2.6584
+                0x23f0e044       0xbc build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .rodata.uc437  0x23f0e100      0x100 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .rodata        0x23f0e200       0x20 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .rodata.FatFsFunctions
+                0x23f0e220       0x88 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e220                FatFsFunctions
+ .rodata.drvSDMMC0InitData
+                0x23f0e2a8       0x24 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e2a8                drvSDMMC0InitData
+ .rodata.drvSDMMC0PlibAPI
+                0x23f0e2cc       0x48 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e2cc                drvSDMMC0PlibAPI
+ .rodata.sysFSInit
+                0x23f0e314        0x8 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e314                sysFSInit
+ .rodata.sysTimeInitData
+                0x23f0e31c        0x8 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e31c                sysTimeInitData
+ .rodata.sysTimePlibAPI
+                0x23f0e324       0x1c build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e324                sysTimePlibAPI
+ .rodata.sysfsMountTable
+                0x23f0e340        0xc build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f0e340                sysfsMountTable
+ .rodata        0x23f0e34c       0x24 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .rodata.TRAN_SPEED_MULT_TABLE.8661
+                0x23f0e370       0x40 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .rodata.TRAN_SPEED_UNIT_TABLE.8660
+                0x23f0e3b0       0x20 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .rodata        0x23f0e3d0       0x64 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x23f0e434                . = ALIGN (0x4)
+ *(.init)
+ .init          0x23f0e434        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+                0x23f0e434                _init
+ .init          0x23f0e440        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+                0x23f0e44c                . = ALIGN (0x4)
+                0x23f0e44c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x23f0e44c                PROVIDE (__preinit_array_end = .)
+                0x23f0e44c                . = ALIGN (0x4)
+                0x23f0e44c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x23f0e44c        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+                0x23f0e450                PROVIDE (__init_array_end = .)
+                0x23f0e450                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x23f0e450                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x23f0e450        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+                0x23f0e450                _fini
+ .fini          0x23f0e45c        0xc c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+                0x23f0e468                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ .fini_array    0x23f0e468        0x4 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ *fill*         0x23f0e46c        0x4 
+ .fini_array.__stub
+                0x23f0e470        0xc linker stubs
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+ *(.dinit*)
+                0x23f0e47c                . = ALIGN (0x4)
+
+.data           0x23f0e47c       0x5c
+ *(.data .data.*)
+ .data.gSYSFSMediaManagerObj
+                0x23f0e47c       0x18 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f0e47c                gSYSFSMediaManagerObj
+ .data.gSYSFSVolumeName
+                0x23f0e494       0x14 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f0e494                gSYSFSVolumeName
+ .data.irqData  0x23f0e4a8       0x28 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+                0x23f0e4a8                irqData
+ .data.irqDataEntryCount
+                0x23f0e4d0        0x4 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+                0x23f0e4d0                irqDataEntryCount
+ .data.cardAttached.8815
+                0x23f0e4d4        0x1 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ *fill*         0x23f0e4d5        0x1 
+ .data.gSysTimeTokenCount
+                0x23f0e4d6        0x2 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+                0x23f0e4d8                . = ALIGN (0x4)
+                [!provide]                PROVIDE (_efixed = .)
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x23f0e4d8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x23f0e4d8        0x8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+                [!provide]                PROVIDE (__exidx_end = .)
+                0x23f0e4e0                . = ALIGN (0x4)
+                0x23f0e4e0                PROVIDE (_etext = .)
+
+.relocate       0x00300000       0x40 load address 0x23f0e4e0
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                PROVIDE (_srelocate = .)
+ *(.vectors .vectors.*)
+ .vectors       0x00300000       0x3c build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .vectors       0x0030003c        0x4 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+                0x0030003c                software_interrupt_irq_handler
+                0x0030003c                prefetch_abort_irq_handler
+                0x0030003c                data_abort_irq_handler
+                0x0030003c                undefined_instruction_irq_handler
+ *(.ramfunc)
+                0x00300040                . = ALIGN (0x4)
+                0x00300040                PROVIDE (_erelocate = .)
+
+.region_cache_aligned_const
+                0x23f0e4e0        0x0
+                0x23f0e4e0                . = ALIGN (0x20)
+ *fill*         0x23f0e4e0        0x0 
+ *(.region_cache_aligned_const)
+                0x23f0e4e0                . = ALIGN (0x20)
+
+.region_sram    0x00300040        0x0
+                0x00300040                . = ALIGN (0x4)
+ *(.region_sram)
+
+.region_ram     0x23f0e4e0        0x0
+                0x23f0e4e0                . = ALIGN (0x4)
+ *(.region_ram)
+
+.region_nocache
+                0x20000000        0x0
+                0x20000000                . = ALIGN (0x4)
+ *(.region_nocache)
+
+.bss            0x23f10000     0x8678
+                0x23f10000                . = ALIGN (0x4)
+                0x23f10000                PROVIDE (_szero = .)
+ *(.bss .bss.*)
+ .bss           0x23f10000       0x1c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .bss.errorValue
+                0x23f1001c        0x1 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f1001c                errorValue
+ *fill*         0x23f1001d        0x3 
+ .bss.gSYSFSCurrentMountPoint
+                0x23f10020        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f10020                gSYSFSCurrentMountPoint
+ .bss.gSYSFSDirObj
+                0x23f10028       0x30 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f10028                gSYSFSDirObj
+ *fill*         0x23f10058        0x8 
+ .bss.gSYSFSFileObj
+                0x23f10060      0x360 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f10060                gSYSFSFileObj
+ .bss.gSYSFSMountPoint
+                0x23f103c0       0x10 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f103c0                gSYSFSMountPoint
+ .bss.gSYSFSObj
+                0x23f103d0        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f103d0                gSYSFSObj
+ .bss.gSysFsMutex
+                0x23f103d8        0x1 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+                0x23f103d8                gSysFsMutex
+ *fill*         0x23f103d9        0x3 
+ .bss.VolToPart
+                0x23f103dc        0x2 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f103dc                VolToPart
+ .bss.gNumOfFSClients
+                0x23f103de        0x1 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ *fill*         0x23f103df        0x1 
+ .bss.gSYSFSEventHandler
+                0x23f103e0        0x8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ *fill*         0x23f103e8       0x18 
+ .bss.gSYSFSMediaBlockBuffer
+                0x23f10400      0x800 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f10400                gSYSFSMediaBlockBuffer
+ .bss.gSYSFSMediaBuffer
+                0x23f10c00      0x200 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f10c00                gSYSFSMediaBuffer
+ .bss.gSYSFSMediaObject
+                0x23f10e00       0x28 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f10e00                gSYSFSMediaObject
+ .bss.gSYSFSVolumeObject
+                0x23f10e28       0x1c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+                0x23f10e28                gSYSFSVolumeObject
+ *fill*         0x23f10e44       0x1c 
+ .bss.FATFSDirObject
+                0x23f10e60       0xa8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ *fill*         0x23f10f08       0x18 
+ .bss.FATFSFileObject
+                0x23f10f20      0x720 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .bss.FATFSVolume
+                0x23f11640      0x260 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .bss.startupflag
+                0x23f118a0        0x1 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .bss.CurrVol   0x23f118a1        0x1 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ *fill*         0x23f118a2        0x2 
+ .bss.FatFs     0x23f118a4        0x4 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .bss.Files     0x23f118a8       0x30 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .bss.Fsid      0x23f118d8        0x2 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ *fill*         0x23f118da        0x2 
+ .bss.LfnBuf    0x23f118dc      0x200 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ *fill*         0x23f11adc        0x4 
+ .bss.gSysFsDiskData
+                0x23f11ae0      0x220 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .bss.drvSDMMC0BufferObjPool
+                0x23f11d00       0x48 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .bss.drvSDMMC0ClientObjPool
+                0x23f11d48       0x10 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .bss.sysObj    0x23f11d58        0x8 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+                0x23f11d58                sysObj
+ .bss.spuriousEventCount
+                0x23f11d60        0x4 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+                0x23f11d60                spuriousEventCount
+ *fill*         0x23f11d64     0x229c 
+ .bss.trns_tbl  0x23f14000     0x4000 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .bss.sdmmc0DmaDescrTable
+                0x23f18000       0x20 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .bss.sdmmc0Obj
+                0x23f18020        0xc build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .bss.TC0_CH0_CallbackObj
+                0x23f1802c        0x8 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+                0x23f1802c                TC0_CH0_CallbackObj
+ *fill*         0x23f18034        0xc 
+ .bss.gDrvSDMMCObj
+                0x23f18040      0x340 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .bss.appData   0x23f18380       0x14 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+                0x23f18380                appData
+ *fill*         0x23f18394        0xc 
+ .bss.dataBuffer
+                0x23f183a0      0x200 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+                0x23f183a0                dataBuffer
+ .bss.gSystemCounterObj
+                0x23f185a0       0x38 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .bss.timers    0x23f185d8       0xa0 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ *(COMMON)
+                0x23f18678                . = ALIGN (0x4)
+                0x23f18678                PROVIDE (_ezero = .)
+
+.region_cache_aligned
+                0x23f18678        0x8
+                0x23f18680                . = ALIGN (0x20)
+ *fill*         0x23f18678        0x8 
+ *(.region_cache_aligned)
+                0x23f18680                . = ALIGN (0x20)
+
+.stacks         0x23f18680     0x2140
+                0x23f186e0                . = (. + IRQ_STACK_SIZE)
+ *fill*         0x23f18680       0x60 
+                0x23f186e0                . = ALIGN (0x8)
+                0x23f186e0                _irqstack = .
+                0x23f18740                . = (. + FIQ_STACK_SIZE)
+ *fill*         0x23f186e0       0x60 
+                0x23f18740                . = ALIGN (0x8)
+                0x23f18740                _fiqstack = .
+                0x23f18780                . = (. + ABT_STACK_SIZE)
+ *fill*         0x23f18740       0x40 
+                0x23f18780                . = ALIGN (0x8)
+                0x23f18780                _abtstack = .
+                0x23f187c0                . = (. + UND_STACK_SIZE)
+ *fill*         0x23f18780       0x40 
+                0x23f187c0                . = ALIGN (0x8)
+                0x23f187c0                _undstack = .
+                0x23f197c0                . = (. + SVC_STACK_SIZE)
+ *fill*         0x23f187c0     0x1000 
+                0x23f197c0                . = ALIGN (0x8)
+                0x23f197c0                _svcstack = .
+                0x23f1a7c0                . = (. + C_STACK_SIZE)
+ *fill*         0x23f197c0     0x1000 
+                0x23f1a7c0                . = ALIGN (0x8)
+                0x23f1a7c0                _cstack = .
+                0x23f1a7c0                _end = .
+                0x23f1a7c0                _ramcode_lma = _end
+
+.ramcode        0x00300040        0x0 load address 0x23f1a7c0
+                0x00300040                _sramcode = .
+ *(.ramcode_section)
+                0x00300040                _eramcode = .
+                0x23f1a7c0                _ramdata_lma = ((_end + _eramcode) - _sramcode)
+
+.ramdata        0x00300040        0x0 load address 0x23f1a7c0
+                0x00300040                _sramdata = .
+ *(.ramdata_section)
+                0x00300040                _eramdata = .
+                0x00000001                __ICD2RAM = 0x1
+                0x00000001                __MPLAB_DEBUG = 0x1
+                0x00000001                __DEBUG = 0x1
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libpic32c.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libm_nano.a
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libc_nano.a
+END GROUP
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtend.o
+LOAD c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+OUTPUT(dist/sam_9x75_eb/debug/sam_9x75_eb.X.debug.elf elf32-littlearm)
+LOAD stack
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crti.o
+ .ARM.attributes
+                0x0000001d       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+ .ARM.attributes
+                0x00000048       0x2c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .ARM.attributes
+                0x00000074       0x2c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .ARM.attributes
+                0x000000a0       0x2c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .ARM.attributes
+                0x000000cc       0x2c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .ARM.attributes
+                0x000000f8       0x2c build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .ARM.attributes
+                0x00000124       0x2c build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .ARM.attributes
+                0x00000150       0x2c build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .ARM.attributes
+                0x0000017c       0x2c build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .ARM.attributes
+                0x000001a8       0x2c build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .ARM.attributes
+                0x000001d4       0x2c build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .ARM.attributes
+                0x00000200       0x2c build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .ARM.attributes
+                0x0000022c       0x2c build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .ARM.attributes
+                0x00000258       0x2c build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .ARM.attributes
+                0x00000284       0x2c build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .ARM.attributes
+                0x000002b0       0x1c build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .ARM.attributes
+                0x000002cc       0x1c build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .ARM.attributes
+                0x000002e8       0x2c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .ARM.attributes
+                0x00000314       0x2c build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .ARM.attributes
+                0x00000340       0x2c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .ARM.attributes
+                0x0000036c       0x2c build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .ARM.attributes
+                0x00000398       0x2c build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .ARM.attributes
+                0x000003c4       0x2c build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .ARM.attributes
+                0x000003f0       0x2c build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .ARM.attributes
+                0x0000041c       0x2c build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .ARM.attributes
+                0x00000448       0x2c build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .ARM.attributes
+                0x00000474       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000491       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000004ae       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000004cb       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000004e8       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000513       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000053e       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000569       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000594       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000005bf       0x1b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x000005da       0x1c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000005f6       0x2b c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000621       0x1d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtn.o
+
+.comment        0x00000000       0x53
+ .comment       0x00000000       0x53 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
+                                 0x54 (size before relaxing)
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .comment       0x00000053       0x54 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-init.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memcpy-stub.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memmove.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-memset.o)
+ .comment       0x00000053       0x54 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strncmp.o)
+
+.debug_info     0x00000000    0x32fd1
+ .debug_info    0x00000000     0x17ef build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_info    0x000017ef     0x56fb build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_info    0x00006eea     0x3641 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_info    0x0000a52b     0x3087 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_info    0x0000d5b2     0x6a2f build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_info    0x00013fe1      0x5e0 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_info    0x000145c1     0x1ded build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_info    0x000163ae     0x1064 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_info    0x00017412     0x3b68 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_info    0x0001af7a     0x170d build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_info    0x0001c687      0xe2e build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_info    0x0001d4b5      0x8c3 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_info    0x0001dd78      0xc1f build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_info    0x0001e997     0x179f build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_info    0x00020136       0x22 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_info    0x00020158       0x26 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .debug_info    0x0002017e     0x1bc9 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_info    0x00021d47      0x996 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_info    0x000226dd     0x5a47 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_info    0x00028124     0x152d build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_info    0x00029651     0x1220 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_info    0x0002a871      0x799 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_info    0x0002b00a     0x1b11 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_info    0x0002cb1b     0x1088 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_info    0x0002dba3     0x3792 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_info    0x00031335       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x0003135b       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_info    0x00031381       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000313a7       0x26 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000313cd     0x1c04 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_abbrev   0x00000000     0x4890
+ .debug_abbrev  0x00000000      0x246 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_abbrev  0x00000246      0x5a6 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_abbrev  0x000007ec      0x575 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_abbrev  0x00000d61      0x3ea build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_abbrev  0x0000114b      0x426 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_abbrev  0x00001571      0x12c build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_abbrev  0x0000169d      0x43c build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_abbrev  0x00001ad9      0x212 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_abbrev  0x00001ceb      0x373 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_abbrev  0x0000205e      0x216 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_abbrev  0x00002274      0x242 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_abbrev  0x000024b6      0x151 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_abbrev  0x00002607      0x155 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_abbrev  0x0000275c      0x2ec build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_abbrev  0x00002a48       0x12 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_abbrev  0x00002a5a       0x14 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .debug_abbrev  0x00002a6e      0x375 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_abbrev  0x00002de3      0x1bb build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_abbrev  0x00002f9e      0x6ca build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_abbrev  0x00003668      0x1cb build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_abbrev  0x00003833      0x290 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_abbrev  0x00003ac3       0x9f build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_abbrev  0x00003b62      0x2bc build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_abbrev  0x00003e1e      0x20b build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_abbrev  0x00004029      0x6b1 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_abbrev  0x000046da       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000046ee       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00004702       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00004716       0x14 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000472a      0x166 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_loc      0x00000000    0x19627
+ .debug_loc     0x00000000       0x45 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_loc     0x00000045     0x5454 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_loc     0x00005499     0x1540 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_loc     0x000069d9     0x1cbb build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_loc     0x00008694     0x9702 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_loc     0x00011d96      0x4d9 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_loc     0x0001226f      0x9a6 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_loc     0x00012c15       0x20 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_loc     0x00012c35       0xf8 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_loc     0x00012d2d      0x584 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_loc     0x000132b1       0x4e build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_loc     0x000132ff       0x94 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_loc     0x00013393      0x142 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_loc     0x000134d5      0x916 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_loc     0x00013deb       0x66 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_loc     0x00013e51     0x2fa4 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_loc     0x00016df5      0x53a build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_loc     0x0001732f      0x27e build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_loc     0x000175ad      0x123 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_loc     0x000176d0       0x20 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_loc     0x000176f0     0x1d36 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_loc     0x00019426      0x201 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_aranges  0x00000000      0xd20
+ .debug_aranges
+                0x00000000       0x20 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_aranges
+                0x00000020      0x178 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_aranges
+                0x00000198       0xa0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_aranges
+                0x00000238      0x130 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_aranges
+                0x00000368      0x220 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_aranges
+                0x00000588       0x30 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_aranges
+                0x000005b8       0x60 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_aranges
+                0x00000618       0x20 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000638       0x20 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_aranges
+                0x00000658       0x40 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_aranges
+                0x00000698       0x78 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_aranges
+                0x00000710       0x20 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_aranges
+                0x00000730       0x60 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_aranges
+                0x00000790       0x38 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_aranges
+                0x000007c8       0x30 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_aranges
+                0x000007f8       0x20 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .debug_aranges
+                0x00000818       0xb8 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_aranges
+                0x000008d0       0x70 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_aranges
+                0x00000940       0xb0 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_aranges
+                0x000009f0       0x20 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_aranges
+                0x00000a10       0x70 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_aranges
+                0x00000a80       0x80 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_aranges
+                0x00000b00       0x30 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_aranges
+                0x00000b30       0x20 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_aranges
+                0x00000b50      0x130 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_aranges
+                0x00000c80       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000ca0       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000cc0       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000ce0       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000d00       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_ranges   0x00000000     0x1538
+ .debug_ranges  0x00000000       0x10 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_ranges  0x00000010      0x600 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_ranges  0x00000610      0x148 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_ranges  0x00000758      0x160 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_ranges  0x000008b8      0x410 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_ranges  0x00000cc8       0x20 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_ranges  0x00000ce8       0x68 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_ranges  0x00000d50       0x10 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_ranges  0x00000d60       0x10 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_ranges  0x00000d70       0x30 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_ranges  0x00000da0      0x170 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_ranges  0x00000f10       0x10 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_ranges  0x00000f20       0x50 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_ranges  0x00000f70       0x40 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_ranges  0x00000fb0       0x28 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_ranges  0x00000fd8       0xf0 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_ranges  0x000010c8       0x60 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_ranges  0x00001128      0x148 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_ranges  0x00001270       0x10 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_ranges  0x00001280       0x98 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_ranges  0x00001318       0x70 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_ranges  0x00001388       0x20 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_ranges  0x000013a8       0x10 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_ranges  0x000013b8      0x180 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+
+.debug_line     0x00000000    0x119ca
+ .debug_line    0x00000000      0x27f build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_line    0x0000027f     0x32b3 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_line    0x00003532      0xf8c build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_line    0x000044be      0xac0 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_line    0x00004f7e     0x4e13 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_line    0x00009d91      0x2eb build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_line    0x0000a07c      0x5ab build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_line    0x0000a627      0x262 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_line    0x0000a889      0x6f2 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_line    0x0000af7b      0x327 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_line    0x0000b2a2      0x710 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_line    0x0000b9b2      0x199 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_line    0x0000bb4b      0x370 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_line    0x0000bebb      0x54c build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_line    0x0000c407       0xf6 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_line    0x0000c4fd       0x56 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .debug_line    0x0000c553      0x8a6 build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_line    0x0000cdf9      0x296 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_line    0x0000d08f     0x2062 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_line    0x0000f0f1      0x1d3 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_line    0x0000f2c4      0x569 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_line    0x0000f82d      0x270 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_line    0x0000fa9d      0x36e build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_line    0x0000fe0b      0x2d7 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_line    0x000100e2     0x12a5 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_line    0x00011387       0xb9 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x00011440       0xc5 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_line    0x00011505       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000115a1       0x9c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0001163d      0x38d c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_str      0x00000000     0x10d1
+ .debug_str     0x00000000       0x2c build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_str     0x0000002c      0x15a build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_str     0x00000186      0x11e build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_str     0x000002a4       0xa4 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_str     0x00000348       0x80 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_str     0x000003c8        0x0 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_str     0x000003c8       0xfb build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_str     0x000004c3       0x27 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_str     0x000004ea       0xf3 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_str     0x000005dd        0xe build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_str     0x000005eb        0xd build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_str     0x000005f8        0x0 build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_str     0x000005f8        0xa build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_str     0x00000602        0xe build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_str     0x00000610       0x74 build/sam_9x75_eb/debug/_ext/2080577836/cstartup.o
+ .debug_str     0x00000684       0x76 build/sam_9x75_eb/debug/_ext/2080577836/vectortrap.o
+ .debug_str     0x000006fa       0x1c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_str     0x00000716        0xa build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_str     0x00000720      0x268 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_str     0x00000988        0xe build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_str     0x00000996       0x64 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_str     0x000009fa       0xd6 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_str     0x00000ad0       0xbd build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_str     0x00000b8d       0x35 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_str     0x00000bc2      0x163 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_str     0x00000d25       0xec c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_str     0x00000e11       0xec c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_str     0x00000efd       0xec c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00000fe9       0xe8 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x000010d1        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_frame    0x00000000     0x2438
+ .debug_frame   0x00000000       0x28 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc_file_system.o
+ .debug_frame   0x00000028      0x594 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs.o
+ .debug_frame   0x000005bc      0x1e8 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_media_manager.o
+ .debug_frame   0x000007a4      0x380 build/sam_9x75_eb/debug/_ext/1845033505/sys_fs_fat_interface.o
+ .debug_frame   0x00000b24      0x8d8 build/sam_9x75_eb/debug/_ext/1706900325/ff.o
+ .debug_frame   0x000013fc       0x50 build/sam_9x75_eb/debug/_ext/1706900325/ffunicode.o
+ .debug_frame   0x0000144c       0xf8 build/sam_9x75_eb/debug/_ext/1576319332/diskio.o
+ .debug_frame   0x00001544       0x28 build/sam_9x75_eb/debug/_ext/1360937237/main.o
+ .debug_frame   0x0000156c       0x28 build/sam_9x75_eb/debug/_ext/2080577836/initialization.o
+ .debug_frame   0x00001594       0x60 build/sam_9x75_eb/debug/_ext/2080577836/interrupts.o
+ .debug_frame   0x000015f4       0xf8 build/sam_9x75_eb/debug/_ext/601893115/plib_mmu.o
+ .debug_frame   0x000016ec       0x2c build/sam_9x75_eb/debug/_ext/601902766/plib_clk.o
+ .debug_frame   0x00001718       0xa0 build/sam_9x75_eb/debug/_ext/601890362/plib_pio.o
+ .debug_frame   0x000017b8       0x64 build/sam_9x75_eb/debug/_ext/601904789/plib_aic.o
+ .debug_frame   0x0000181c      0x19c build/sam_9x75_eb/debug/_ext/1406570242/plib_sdmmc0.o
+ .debug_frame   0x000019b8       0xd0 build/sam_9x75_eb/debug/_ext/1404889025/plib_tc0.o
+ .debug_frame   0x00001a88      0x214 build/sam_9x75_eb/debug/_ext/613417341/drv_sdmmc.o
+ .debug_frame   0x00001c9c       0x20 build/sam_9x75_eb/debug/_ext/626097884/bsp.o
+ .debug_frame   0x00001cbc      0x118 build/sam_9x75_eb/debug/_ext/1219600167/sys_int.o
+ .debug_frame   0x00001dd4      0x148 build/sam_9x75_eb/debug/_ext/1045604261/sys_cache.o
+ .debug_frame   0x00001f1c       0x58 build/sam_9x75_eb/debug/_ext/1360937237/app.o
+ .debug_frame   0x00001f74       0x28 build/sam_9x75_eb/debug/_ext/2080577836/tasks.o
+ .debug_frame   0x00001f9c      0x3d8 build/sam_9x75_eb/debug/_ext/848834719/sys_time.o
+ .debug_frame   0x00002374       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00002394       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_divsi3.o)
+ .debug_frame   0x000023b4       0x2c c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000023e0       0x38 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002418       0x20 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/arm/v5te/nofp\libg_nano.a(lib_a-strcmp.o)
+
+.stack          0x23f1a9e0      0x100
+ .stack         0x23f1a9e0      0x100 stack
+
+.eh_frame%z1    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 c:/program files/microchip/xc32/v3.01/bin/bin/../../lib/gcc/pic32c/8.3.1/arm/v5te/nofp/crtbegin.o
