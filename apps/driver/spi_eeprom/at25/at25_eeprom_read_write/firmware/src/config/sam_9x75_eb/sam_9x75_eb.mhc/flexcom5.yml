@@ -203,6 +203,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: flexcom5, value: '255'}
+  - type: Integer
+    attributes: {id: FLEXCOM_SPI_CSR_INDEX}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom5, value: '0'}
   - type: Hex
     attributes: {id: FLEXCOM_SPI_DUMMY_DATA}
     children:
@@ -292,6 +299,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: flexcom5, value: MASTER}
+  - type: Integer
+    attributes: {id: FLEXCOM_SPI_NUM_CSR}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom5, value: '1'}
   - type: Integer
     attributes: {id: FLEXCOM_SPI_PERIPHERAL_CLOCK}
     children:
@@ -398,7 +412,7 @@ children:
       - type: Boolean
         attributes: {id: readOnly}
         children:
-        - {type: Value, value: 'true'}
+        - {type: Value, value: 'false'}
       - type: Boolean
         attributes: {id: visible}
         children:
