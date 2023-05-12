@@ -49,26 +49,26 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdio.h>
-#include "driver/sdmmc/drv_sdmmc.h"
 #include "system/fs/sys_fs.h"
 #include "system/fs/sys_fs_media_manager.h"
 #include "system/fs/sys_fs_fat_interface.h"
 #include "system/fs/fat_fs/file_system/ff.h"
 #include "system/fs/fat_fs/file_system/ffconf.h"
 #include "system/fs/fat_fs/hardware_access/diskio.h"
+#include "driver/sdmmc/drv_sdmmc.h"
 #include "peripheral/mmu/plib_mmu.h"
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/pio/plib_pio.h"
 #include "peripheral/aic/plib_aic.h"
 #include "peripheral/sdmmc/plib_sdmmc0.h"
-#include "peripheral/dbgu/plib_dbgu.h"
 #include "peripheral/tc/plib_tc0.h"
+#include "peripheral/dbgu/plib_dbgu.h"
 #include "bsp/bsp.h"
+#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "system/time/sys_time.h"
 #include "app.h"
 
 
@@ -80,6 +80,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "SAM9X75"
+#define DEVICE_ARCH			 "ARM926EJ-S"
+#define DEVICE_FAMILY		 "SAM9"
+#define DEVICE_SERIES		 "SAM9X7"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 800000000
