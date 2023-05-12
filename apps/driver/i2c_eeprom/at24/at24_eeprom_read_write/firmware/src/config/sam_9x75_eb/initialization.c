@@ -62,19 +62,23 @@
 // Section: Driver Initialization Data
 // *****************************************************************************
 // *****************************************************************************
+/* Following MISRA-C rules are deviated in the below code block */
+/* MISRA C-2012 Rule 11.1 */
+/* MISRA C-2012 Rule 11.3 */
+/* MISRA C-2012 Rule 11.8 */
 // <editor-fold defaultstate="collapsed" desc="DRV_AT24 Initialization Data">
 
 /* I2C PLIB Interface Initialization for AT24 Driver */
-const DRV_AT24_PLIB_INTERFACE drvAT24PlibAPI = {
+static const DRV_AT24_PLIB_INTERFACE drvAT24PlibAPI = {
 
     /* I2C PLIB WriteRead function */
     .writeRead = (DRV_AT24_PLIB_WRITE_READ)FLEXCOM7_TWI_WriteRead,
 
     /* I2C PLIB Write function */
-    .write = (DRV_AT24_PLIB_WRITE)FLEXCOM7_TWI_Write,
+    .write_t = (DRV_AT24_PLIB_WRITE)FLEXCOM7_TWI_Write,
 
     /* I2C PLIB Read function */
-    .read = (DRV_AT24_PLIB_READ)FLEXCOM7_TWI_Read,
+    .read_t = (DRV_AT24_PLIB_READ)FLEXCOM7_TWI_Read,
 
     /* I2C PLIB Transfer Status function */
     .isBusy = (DRV_AT24_PLIB_IS_BUSY)FLEXCOM7_TWI_IsBusy,
@@ -87,7 +91,7 @@ const DRV_AT24_PLIB_INTERFACE drvAT24PlibAPI = {
 };
 
 /* AT24 Driver Initialization Data */
-const DRV_AT24_INIT drvAT24InitData =
+static const DRV_AT24_INIT drvAT24InitData =
 {
     /* I2C PLIB API  interface*/
     .i2cPlib = &drvAT24PlibAPI,
@@ -106,8 +110,8 @@ const DRV_AT24_INIT drvAT24InitData =
 
     .blockStartAddress =    0x0,
 };
-
 // </editor-fold>
+
 
 
 // *****************************************************************************
@@ -196,7 +200,7 @@ static void SYSC_Disable( void )
 }
 
 
-
+/* MISRAC 2012 deviation block end */
 
 /*******************************************************************************
   Function:
@@ -210,6 +214,8 @@ static void SYSC_Disable( void )
 
 void SYS_Initialize ( void* data )
 {
+    /* MISRAC 2012 deviation block start */
+    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
 	SYSC_Disable( );
 
@@ -231,14 +237,24 @@ void SYS_Initialize ( void* data )
 
 	BSP_Initialize();
 
+
+    /* MISRAC 2012 deviation block start */
+    /* Following MISRA-C rules deviated in this block  */
+    /* MISRA C-2012 Rule 11.3 - Deviation record ID - H3_MISRAC_2012_R_11_3_DR_1 */
+    /* MISRA C-2012 Rule 11.8 - Deviation record ID - H3_MISRAC_2012_R_11_8_DR_1 */
+
     sysObj.drvAT24 = DRV_AT24_Initialize(DRV_AT24_INDEX, (SYS_MODULE_INIT *)&drvAT24InitData);
 
 
 
 
+    /* MISRAC 2012 deviation block end */
     APP_Initialize();
 
 
+
+
+    /* MISRAC 2012 deviation block end */
 
 }
 
