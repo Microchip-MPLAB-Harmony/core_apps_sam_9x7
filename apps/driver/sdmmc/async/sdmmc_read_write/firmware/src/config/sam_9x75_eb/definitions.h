@@ -56,11 +56,11 @@
 #include "peripheral/sdmmc/plib_sdmmc0.h"
 #include "peripheral/tc/plib_tc0.h"
 #include "bsp/bsp.h"
+#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "system/time/sys_time.h"
 #include "app.h"
 
 
@@ -72,6 +72,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "SAM9X75"
+#define DEVICE_ARCH			 "ARM926EJ-S"
+#define DEVICE_FAMILY		 "SAM9"
+#define DEVICE_SERIES		 "SAM9X7"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 800000000
