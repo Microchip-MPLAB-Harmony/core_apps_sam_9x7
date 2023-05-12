@@ -79,7 +79,7 @@ extern "C" {
 
 #define GEOMETRY_TABLE_READ_ENTRY   (0)
 #define GEOMETRY_TABLE_WRITE_ENTRY  (1)
-#define GEOMETRY_TABLE_ERASE_ENTRY  (2)
+#define GEOMETRY_TABLE_ER_ENTRY     (2)
 
 #define BLOCK_START                 0x2000
 

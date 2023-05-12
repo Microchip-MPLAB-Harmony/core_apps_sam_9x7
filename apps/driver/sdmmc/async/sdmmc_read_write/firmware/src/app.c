@@ -209,7 +209,7 @@ void APP_Tasks ( void )
             {
                 appData.numReadBlocks  = (SDMMC_DATA_SIZE / geometry->geometryTable[GEOMETRY_TABLE_READ_ENTRY].blockSize);
                 appData.numWriteBlocks = (SDMMC_DATA_SIZE / geometry->geometryTable[GEOMETRY_TABLE_WRITE_ENTRY].blockSize);
-                appData.numEraseBlocks = (SDMMC_DATA_SIZE / geometry->geometryTable[GEOMETRY_TABLE_ERASE_ENTRY].blockSize);
+                appData.numEraseBlocks = (SDMMC_DATA_SIZE / geometry->geometryTable[GEOMETRY_TABLE_ER_ENTRY].blockSize);
                 appData.state = APP_STATE_WRITE_MEMORY;                
             }           
             break;
