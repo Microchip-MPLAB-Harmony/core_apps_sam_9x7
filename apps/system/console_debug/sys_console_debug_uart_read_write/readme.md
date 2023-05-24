@@ -46,35 +46,23 @@ The following table shows the target hardware for the application projects.
 
 ### Setting up [SAM9X75-EB Evaluation Board]()
 
-#### Addtional hardware required
-
-- SD Card with FAT32 file system
-
-#### Setting up the SD Card
-
-- Download harmony MPU bootstrap loader from this [location](firmware/at91bootstrap_sam_9x75_eb.X/build/binaries/boot.bin)
-- Copy the downloaded boot loader binary( boot.bin) onto the SD card
-
 #### Setting up the board
 
-- SDMMC slot used for bootloading the application is SDMMC0 (J8)
 - Connect the DBGU0 J34 on board to the computer using a UART-FTDI cable (to enable debug com port)
 - Connect the USB port J28 on board to the computer using a micro USB cable (to power the board)
 
 ## Running the Application
 
 1. Build the application using its IDE
-2. Copy the output binary (named 'harmony.bin') onto the SD Card (Refer to the 'Setting up hardware' section above for setting up the SD card)
-3. Insert the SD card into SDMMC slot on the board (Refer to the 'Setting up hardware' section for the correct SDMMC slot)
-4. Open the Terminal application (Ex.:Tera term) on the computer.
-5. Connect to the (USB to Serial) COM port and configure the serial settings as follows:
+2. Open the Terminal application (Ex.:Tera term) on the computer.
+3. Connect to the (USB to Serial) COM port and configure the serial settings as follows:
     - Baud : 115200
     - Data : 8 Bits
     - Parity : None
     - Stop : 1 Bit
     - Flow Control : None
-6. Reset the board to run the application
-7. Observe the following output on the terminal
+
+4. Observe the following output on the terminal
 
     ![output_1](images/output_sys_console_debug_uart_read_write_1.png)
 
@@ -82,7 +70,7 @@ The following table shows the target hardware for the application projects.
     - It then prints the free space available in the receive buffer
     - It then asks the user to enter 10 characters
 
-8. After entering 10 characters, observe the following output on the terminal
+5. After entering 10 characters, observe the following output on the terminal
 
     ![output_2](images/output_sys_console_debug_uart_read_write_2.png)
 
@@ -92,7 +80,7 @@ The following table shows the target hardware for the application projects.
     - Application then waits for the transmit buffer to become empty
     - Once empty, the application prints the free space available in the transmit buffer, which should be same as the size of the transmit buffer configured in MHC minus 1
 
-9. After this, the demonstration asks the user to enter a character, and echoes it back on the terminal.
+6. After this, the demonstration asks the user to enter a character, and echoes it back on the terminal.
 
     ![output_3](images/output_sys_console_debug_uart_read_write_3.png)
 
