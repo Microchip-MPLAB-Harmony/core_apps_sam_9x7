@@ -1,5 +1,5 @@
 ---
-parent: Harmony 3 driver and system service application examples for SAM 9X7 family
+parent: Harmony 3 driver and system service application examples for SAM9X7 family
 title: FreeRTOS basic 
 has_children: false
 has_toc: false
