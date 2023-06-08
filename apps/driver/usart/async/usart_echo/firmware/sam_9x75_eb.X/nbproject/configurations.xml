@@ -61,6 +61,7 @@
           <itemPath>../src/config/sam_9x75_eb/interrupts.h</itemPath>
           <itemPath>../src/config/sam_9x75_eb/user.h</itemPath>
           <itemPath>../src/config/sam_9x75_eb/configuration.h</itemPath>
+          <itemPath>../src/config/sam_9x75_eb/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -193,17 +194,6 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
-      <logicalFolder name="f1" displayName="sam_9x75_eb.mhc" projectFiles="true">
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/BSP_SAM_9X75_Evaluation_Board.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/core.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/dbgu.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/drv_usart.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/project.yml</itemPath>
-        <itemPath>../src/config/sam_9x75_eb/sam_9x75_eb.mhc/settings.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_9x75_eb/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_9x75_eb/pin_configurations.csv</itemPath>
