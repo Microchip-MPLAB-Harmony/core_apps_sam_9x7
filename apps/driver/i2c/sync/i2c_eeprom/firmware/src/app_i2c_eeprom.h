@@ -73,7 +73,7 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
 /* Size of the string written to EEPROM must be less than or equal to the EEPROM page size */
-#define APP_EEPROM_TEST_DATA                        "I2C Demo"
+#define APP_EEPROM_TEST_DATA                        "I2C EEPROM Demo"
 #define APP_EEPROM_TEST_DATA_SIZE                   (sizeof(APP_EEPROM_TEST_DATA)-1)
 #define APP_EEPROM_RX_BUFFER_SIZE                   APP_EEPROM_TEST_DATA_SIZE
 #if APP_EEPROM_ADDR_LEN_BITS == 18 || APP_EEPROM_ADDR_LEN_BITS == 16
