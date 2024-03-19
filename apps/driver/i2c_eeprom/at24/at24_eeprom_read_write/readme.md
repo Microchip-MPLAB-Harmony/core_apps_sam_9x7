@@ -13,7 +13,7 @@ This example application shows how to use the AT24 driver to perform read and wr
 
 ## Description
 
-- This example uses the AT24 driver to communicate with I2C based on-board 24AA02E48 series EEPROM to perform write and read operations in Bare-Metal environment.
+- This example uses the AT24 driver to communicate with I2C based External AT24CM0 series EEPROMs to perform write and read operations in Bare-Metal environment.
 
 ## Downloading and building the application
 
@@ -26,7 +26,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| sam_9x75_eb.X | MPLABX project for [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | MPLABX project for [SAM9X75-Curiosity Development Board]() |
 |||
 
 ## Setting up AT91Bootstrap loader
@@ -39,25 +39,34 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| sam_9x75_eb.X | [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | [SAM9X75-Curiosity Development Board]() |
 |||
 
-### Setting up [SAM9X75-EB Evaluation Board]()
+### Setting up [SAM9X75-Curiosity Development Board]()
 
+**ADDTIONAL HARDWARE REQUIRED**
+
+-   One [EEPROM 3 Click](https://www.mikroe.com/eeprom-3-click) board
 
 #### Setting up the board
 
-- Connect the DBGU0 J34 on board to the computer using a UART-FTDI cable (to enable debug com port)
-- Connect the USB port J28 on board to the computer using a micro USB cable (to power the board)
-
+- Connect the USB port J2 on board to the computer using a micro USB cable (to power the board)
+- Connect EEPROM Click 3 Board to MikroBus1 \(J22\) connector on the board as per below Pin Connections table
+   
+   |J22 MikroBus1 Pins |EEPROM 3 CLICK Pins|
+    |------------------|-------------------|
+    |PIN 11 \(PC0\)|SDA|
+    |PIN 12 \(PC1\)|SCL|
+    |PIN 8|GND|
+    |PIN 7|3V3|
 ## Running the Application
 
-1. Build the application using its IDE
+1. Build and program the application using its IDE
 2. LED is turned ON when the data read from EEPROM matches with the written data
 
 Refer to the following table for LED name:
 
 | Board | LED Name |
 | ----- | -------- |
-|  [SAM9X75-EB Evaluation Board]()  | RGB_LED(Green) |
+|  [SAM9X75-Curiosity Development Board]()  | RGB_LED(Green) |
 |||
