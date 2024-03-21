@@ -44,7 +44,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| sam_9x75_eb.X | MPLABX project for [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | MPLABX project for [SAM9X75-Curiosity Development Board]() |
 |||
 
 ## Setting up AT91Bootstrap loader
@@ -57,24 +57,23 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| sam_9x75_eb.X | [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | [SAM9X75-Curiosity Development Board]() |
 |||
 
-### Setting up [SAM9X75-EB Evaluation Board]()
+### Setting up [SAM9X75-Curiosity Development Board]()
 
 #### Setting up the board
 
-- Connect the DBGU0 J34 on board to the computer using a UART-FTDI cable (to enable debug com port)
 - Connect the USB port J28 on board to the computer using a micro USB cable (to power the board)
 
 ## Running the Application
 
-1. Build the application using its IDE
+1. Build and program the application using its IDE
 2. The LED is turned ON if data has successfully been written and read back from file "newfile.txt"
 
 Refer to the following table for LED name:
 
 | Board | LED Name |
 | ----- | -------- |
-|  [SAM9X75-EB Evaluation Board]()  | RGB_LED(Green) |
+|  [SAM9X75-Curiosity Development Board]()  | RGB_LED(Green) |
 |||
