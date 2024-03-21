@@ -38,7 +38,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| sam_9x75_eb.X | MPLABX project for [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | MPLABX project for [SAM9X75-Curiosity Development Board]() |
 |||
 
 ## Setting up AT91Bootstrap loader
@@ -51,10 +51,10 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| sam_9x75_eb.X | [SAM9X75-EB Evaluation Board]() |
+| sam_9x75_curiosity.X | [SAM9X75-Curiosity Development Board]() |
 |||
 
-### Setting up [SAM9X75-EB Evaluation Board]()
+### Setting up [SAM9X75-Curiosity Development Board]()
 
 #### Addtional hardware required
 
@@ -63,13 +63,13 @@ The following table shows the target hardware for the application projects.
 
 #### Setting up the board
 
-- SDMMC slot used is SDMMC0 (J8)
-- Connect the DBGU0 J34 on board to the computer using a UART-FTDI cable (to enable debug com port)
-- Connect the USB port J28 on board to the computer using a micro USB cable (to power the board)
+- SDMMC slot used is SDMMC0 (J12)
+- Connect the UART-DEBUG J32 on board to the computer using a UART-FTDI cable (to enable debug com port)
+- Connect the USB port J2 on board to the computer using a micro USB cable (to power the board)
 
 ## Running the Application
 
-1. Build the application using its IDE
+1. Build and program the application using its IDE
 2. Open the Terminal application (Ex.:Tera term) on the computer.
 3. Connect to the (USB to Serial) COM port and configure the serial settings as follows:
     - Baud : 115200
@@ -84,7 +84,7 @@ The following table shows the target hardware for the application projects.
 
     | Board | LED Name |
     | ----- | -------- |
-    |  [SAM9X75-EB Evaluation Board]()  | RGB_LED(Green) |
+    |  [SAM9X75-Curiosity Development Board]()  | RGB_LED(Green) |
     |||
 
 5. Calculated throughput values for Aligned and Un-Aligned buffers are dispalyed on console as below:
