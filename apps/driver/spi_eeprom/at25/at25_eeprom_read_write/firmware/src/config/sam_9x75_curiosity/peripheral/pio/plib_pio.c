@@ -113,8 +113,8 @@ void PIO_Initialize ( void )
     /* PORTC Output Write Enable */
     ((pio_registers_t*)PIO_PORT_C)->PIO_OWER = PIO_OWER_Msk;
     /* PORTC Output Direction Enable */
-    ((pio_registers_t*)PIO_PORT_C)->PIO_OER = 0x3380000U;
-    ((pio_registers_t*)PIO_PORT_C)->PIO_ODR = ~0x3380000U;
+    ((pio_registers_t*)PIO_PORT_C)->PIO_OER = 0x3384000U;
+    ((pio_registers_t*)PIO_PORT_C)->PIO_ODR = ~0x3384000U;
     /* Initialize PORTC pin state */
     ((pio_registers_t*)PIO_PORT_C)->PIO_ODSR = 0x3200000U;
     /* PORTC Slew rate control */
