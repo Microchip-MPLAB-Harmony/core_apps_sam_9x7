@@ -118,14 +118,14 @@ void PIO_Initialize ( void )
     /* PORTC Output Write Enable */
     ((pio_registers_t*)PIO_PORT_C)->PIO_OWER = PIO_OWER_Msk;
     /* PORTC Output Direction Enable */
-    ((pio_registers_t*)PIO_PORT_C)->PIO_OER = 0x380000U;
-    ((pio_registers_t*)PIO_PORT_C)->PIO_ODR = ~0x380000U;
+    ((pio_registers_t*)PIO_PORT_C)->PIO_OER = 0x384000U;
+    ((pio_registers_t*)PIO_PORT_C)->PIO_ODR = ~0x384000U;
     /* Initialize PORTC pin state */
     ((pio_registers_t*)PIO_PORT_C)->PIO_ODSR = 0x0U;
     /* PORTC Additional interrupt mode Enable */
     ((pio_registers_t*)PIO_PORT_C)->PIO_AIMER = 0x1000200U;
     /* PORTC Rising Edge or High Level Interrupt Enable */
-    ((pio_registers_t*)PIO_PORT_C)->PIO_REHLSR = 0x1000200U;
+    ((pio_registers_t*)PIO_PORT_C)->PIO_REHLSR = 0x1000000U;
     /* PORTC Interrupt Status Clear */
     ((pio_registers_t*)PIO_PORT_C)->PIO_ISR;
     /* PORTC system level interrupt will be enabled by NVIC Manager */
