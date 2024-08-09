@@ -29,7 +29,6 @@ This content can also be downloaded using content manager by following these [in
 | Folder     | Description                             |
 | ---        | ---                                     |
 | apps       | Contains driver and system service example applications |
-| docs       | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/core_apps_sam_9x7/) of this repository for viewing it online. |
 
 ## Code Examples
 
@@ -37,19 +36,19 @@ The following applications are provided to demonstrate the typical or interestin
 
 | Name | Description |
 | ---- | ----------- |
-| [I2C driver synchronous - I2C EEPROM](apps/driver/i2c/sync/i2c_eeprom/readme.md) | This example application shows how to use the I2C driver in synchronous mode to perform operations on the EEPROM |
-| [I2C EEPROM AT24 driver - EEPROM Read Write](apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/readme.md) | This example application shows how to use the AT24 driver to perform read and write operations on AT24 series of EEPROM |
-| [SDMMC driver asynchronous - SDMMC Read Write](apps/driver/sdmmc/async/sdmmc_read_write/readme.md) | This example application shows how to use the SDMMC driver in asynchronous mode to perform block operations on the SD Card Media |
-| [SPI EEPROM AT25 driver - EEPROM Read Write](apps/driver/spi_eeprom/at25/at25_eeprom_read_write/readme.md) | This example application shows how to use the AT25 driver to perform read and write operations on AT25 series of EEPROM |
-| [USART driver asynchronous - USART echo](apps/driver/usart/async/usart_echo/readme.md) | This example echoes the received characters over the console using the USART driver in asynchronous mode |
-| [USART driver synchronous - USART echo](apps/driver/usart/sync/usart_echo/readme.md) | This example echoes the received characters over the console using the USART driver in synchronous mode |
-| [FAT filesystem using RAM Media](apps/fs/ram_fat/readme.md) | This application shows an example of using the MPLAB Harmony File System to access RAM media |
-| [FAT filesystem using SDMMC Media](apps/fs/sdmmc_fat/readme.md) | This application shows an example of using the MPLAB Harmony File System to access and modify the contents of a SD card using the SDMMC driver |
-| [FAT filesystem throughput using SDMMC Media](apps/fs/sdmmc_fat_throughput/readme.md) | This application calculates throughput by Writing and Reading data into a Sd-Card at High Speed using the MPLAB Harmony File System and the SDMMC driver |
-| [FreeRTOS basic](apps/rtos/freertos/basic_freertos/readme.md) | This example application demonstrates context switching between four tasks of different priorites. Two tasks run periodically while the other two tasks are event driven |
-| [FreeRTOS Task Notification](apps/rtos/freertos/task_notification_freertos/readme.md) | This example application is to illustrate the FreeRTOS Task Notification feature which is used as a light weight binary semaphore |
-| [Console Debug System Service using UART](apps/system/console_debug/sys_console_debug_uart_read_write/readme.md) | This example application demonstrates the UART based console and debug system service |
-| [Time System Service multi-client](apps/system/time/sys_time_multiclient/readme.md) | This example application demonstrates the multi-client system timer functionality |
+| [I2C driver synchronous - I2C EEPROM](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_I2C_DRIVER_SYNCHRONOUS_EEPROM&redirect=true) | This example application shows how to use the I2C driver in synchronous mode to perform operations on the EEPROM |
+| [I2C EEPROM AT24 driver - EEPROM Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_I2C_AT24_DRIVER_EEPROM_READ_WRITE&redirect=true) | This example application shows how to use the AT24 driver to perform read and write operations on AT24 series of EEPROM |
+| [SDMMC driver asynchronous - SDMMC Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SDMMC_DRIVER_ASYNCHRONOUS_READ_WRITE&redirect=true) | This example application shows how to use the SDMMC driver in asynchronous mode to perform block operations on the SD Card Media |
+| [SPI EEPROM AT25 driver - EEPROM Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SPI_AT25_DRIVER_EEPROM_READ_WRITE&redirect=true) | This example application shows how to use the AT25 driver to perform read and write operations on AT25 series of EEPROM |
+| [USART driver asynchronous - USART echo](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_DRIVER_ASYNC_USART_ECHO&redirect=true) | This example echoes the received characters over the console using the USART driver in asynchronous mode |
+| [USART driver synchronous - USART echo](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_DRIVER_SYNC_USART_ECHO&redirect=true) | This example echoes the received characters over the console using the USART driver in synchronous mode |
+| [FAT filesystem using RAM Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_RAM_FAT&redirect=true) | This application shows an example of using the MPLAB Harmony File System to access RAM media |
+| [FAT filesystem using SDMMC Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_SDMMC_FAT&redirect=true) | This application shows an example of using the MPLAB Harmony File System to access and modify the contents of a SD card using the SDMMC driver |
+| [FAT filesystem throughput using SDMMC Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_SDMMC_FAT_THROUGHPUT&redirect=true) | This application calculates throughput by Writing and Reading data into a Sd-Card at High Speed using the MPLAB Harmony File System and the SDMMC driver |
+| [FreeRTOS basic](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FREERTOS_BASIC&redirect=true) | This example application demonstrates context switching between four tasks of different priorites. Two tasks run periodically while the other two tasks are event driven |
+| [FreeRTOS Task Notification](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FREERTOS_TASK_NOTIFICATION&redirect=true) | This example application is to illustrate the FreeRTOS Task Notification feature which is used as a light weight binary semaphore |
+| [Console Debug System Service using UART](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SYSTEM_CONSOLE_DEBUG_UART_READ_WRITE&redirect=true) | This example application demonstrates the UART based console and debug system service |
+| [Time System Service multi-client](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SYS_TIME_MULTICLIENT&redirect=true) | This example application demonstrates the multi-client system timer functionality |
 
 ____
 
