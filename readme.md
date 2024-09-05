@@ -1,10 +1,4 @@
-﻿---
-title: Harmony 3 driver and system service application examples for SAM9X7 family
-nav_order: 1
-has_children: true
-has_toc: false
----
-[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
+﻿[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # Harmony 3 driver and system service application examples for SAM9X7 family
 
@@ -19,7 +13,7 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 This repository contains the MPLAB® Harmony 3 driver and system service application examples for SAM9X7 family
 
 - [Release Notes](release_notes.md)
-- [MPLAB® Harmony License](mplab_harmony_license.md)
+- [MPLAB® Harmony License](Microchip_SLA001.md)
 
 To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/core_apps_sam_9x7) and then click **Clone** button to clone this repository or download as zip file.
 This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
@@ -32,23 +26,12 @@ This content can also be downloaded using content manager by following these [in
 
 ## Code Examples
 
-The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries.
+Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_INTRODUCTION&redirect=true) to view the online documentation of code examples hosted in this repository.
 
-| Name | Description |
-| ---- | ----------- |
-| [I2C driver synchronous - I2C EEPROM](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_I2C_DRIVER_SYNCHRONOUS_EEPROM&redirect=true) | This example application shows how to use the I2C driver in synchronous mode to perform operations on the EEPROM |
-| [I2C EEPROM AT24 driver - EEPROM Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_I2C_AT24_DRIVER_EEPROM_READ_WRITE&redirect=true) | This example application shows how to use the AT24 driver to perform read and write operations on AT24 series of EEPROM |
-| [SDMMC driver asynchronous - SDMMC Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SDMMC_DRIVER_ASYNCHRONOUS_READ_WRITE&redirect=true) | This example application shows how to use the SDMMC driver in asynchronous mode to perform block operations on the SD Card Media |
-| [SPI EEPROM AT25 driver - EEPROM Read Write](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SPI_AT25_DRIVER_EEPROM_READ_WRITE&redirect=true) | This example application shows how to use the AT25 driver to perform read and write operations on AT25 series of EEPROM |
-| [USART driver asynchronous - USART echo](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_DRIVER_ASYNC_USART_ECHO&redirect=true) | This example echoes the received characters over the console using the USART driver in asynchronous mode |
-| [USART driver synchronous - USART echo](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_DRIVER_SYNC_USART_ECHO&redirect=true) | This example echoes the received characters over the console using the USART driver in synchronous mode |
-| [FAT filesystem using RAM Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_RAM_FAT&redirect=true) | This application shows an example of using the MPLAB Harmony File System to access RAM media |
-| [FAT filesystem using SDMMC Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_SDMMC_FAT&redirect=true) | This application shows an example of using the MPLAB Harmony File System to access and modify the contents of a SD card using the SDMMC driver |
-| [FAT filesystem throughput using SDMMC Media](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FS_SDMMC_FAT_THROUGHPUT&redirect=true) | This application calculates throughput by Writing and Reading data into a Sd-Card at High Speed using the MPLAB Harmony File System and the SDMMC driver |
-| [FreeRTOS basic](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FREERTOS_BASIC&redirect=true) | This example application demonstrates context switching between four tasks of different priorites. Two tasks run periodically while the other two tasks are event driven |
-| [FreeRTOS Task Notification](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_FREERTOS_TASK_NOTIFICATION&redirect=true) | This example application is to illustrate the FreeRTOS Task Notification feature which is used as a light weight binary semaphore |
-| [Console Debug System Service using UART](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SYSTEM_CONSOLE_DEBUG_UART_READ_WRITE&redirect=true) | This example application demonstrates the UART based console and debug system service |
-| [Time System Service multi-client](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=CORE_APPS_SAM_9X7_SYS_TIME_MULTICLIENT&redirect=true) | This example application demonstrates the multi-client system timer functionality |
+To view the documentation offline, follow these steps:
+ - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-057A9615-797B-41E2-9879-4CA409198FD3?type=webhelp).
+ - Extract the zip file into a folder.
+ - Navigate to the folder and open **index.html** in a web browser of your choice.
 
 ____
 

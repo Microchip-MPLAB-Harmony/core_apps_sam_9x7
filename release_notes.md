@@ -16,11 +16,13 @@ Following table provides number of peripheral library examples available for dif
 
 | Development Kits  | MPLAB X applications |
 |:-----------------:|:-------------------:|
-| SAM9X75-Curiosity Board | 13 |
+| [SAM9X75 Curiosity Development Board](https://www.microchip.com/en-us/development-tool/EV31H43A) | 15 |
 
 ### New Features
 
-- Migrated Applications from SAM9X75 Evaluation Board to SAM9X75 Curiosity Board 
+- Migrated Applications from SAM9X75 Evaluation Board to SAM9X75 Curiosity Development Board
+- Added example application for FAT filesystem on SST26 flash
+- Added example application for SMC NAND flash driver
 
 ### Known Issues
 
