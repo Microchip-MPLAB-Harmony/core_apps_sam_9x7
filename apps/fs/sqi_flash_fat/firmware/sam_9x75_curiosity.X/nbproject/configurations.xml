@@ -232,7 +232,7 @@
                    displayName="Important Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
-      <itemPath>sam_9x75_curiosity.mc3</itemPath>
+      <itemPath>sqi_flash_fat_sam_9x75_curiosity.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -548,6 +548,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/h3/apps/core_apps_sam_9x7/apps/fs/sqi_flash_fat/firmware/sam_9x75_curiosity.X/debug/sam_9x75_curiosity/sam_9x75_curiosity_ptg"/>
         <property key="programmerToGoImageName" value="sam_9x75_curiosity_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
