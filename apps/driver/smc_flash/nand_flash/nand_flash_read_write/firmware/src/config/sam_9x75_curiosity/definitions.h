@@ -55,12 +55,12 @@
 #include "peripheral/aic/plib_aic.h"
 #include "peripheral/xdmac/plib_xdmac.h"
 #include "bsp/bsp.h"
-#include "driver/smc_flash/nand_flash/drv_nand_flash.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "driver/smc_flash/nand_flash/drv_nand_flash.h"
 #include "app.h"
 
 
@@ -74,13 +74,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "SAM9X75D2G"
-#define DEVICE_ARCH			 "ARM926EJ-S"
-#define DEVICE_FAMILY		 "SAM9"
-#define DEVICE_SERIES		 "SAM9X7"
+#define DEVICE_NAME          "SAM9X75D2G"
+#define DEVICE_ARCH          "ARM926EJ-S"
+#define DEVICE_FAMILY        "SAM9"
+#define DEVICE_SERIES        "SAM9X7"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 800000000
+#define CPU_CLOCK_FREQUENCY 800000000U
 
 // *****************************************************************************
 // *****************************************************************************
