@@ -72,7 +72,7 @@
 #define LED_RED_On() (PIOC_REGS->PIO_SODR = (1UL<<14))
 #define LED_RED_Off() (PIOC_REGS->PIO_CODR = (1UL<<14))
 /*** SWITCH Macros for USER_BUTTON ***/
-#define USER_BUTTON_Get() ((PIOC_REGS->PIO_PDSR >> 9) & 0x1)
+#define USER_BUTTON_Get() ((PIOC_REGS->PIO_PDSR >> 9) & 0x1U)
 #define USER_BUTTON_STATE_PRESSED 0
 #define USER_BUTTON_STATE_RELEASED 1
 
