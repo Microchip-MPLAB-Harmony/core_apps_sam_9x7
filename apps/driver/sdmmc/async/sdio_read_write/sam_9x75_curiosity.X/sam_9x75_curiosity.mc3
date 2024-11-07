@@ -47,7 +47,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.2"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.3"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -13042,7 +13042,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>f6d51364b179b358be024f4cdc18400e87bf8f50a7933e395c9cf936e238c03a</hash>
+         <hash>db0d2f4503325e2fbee8c5be509566f460345b0c9d14f850c1bfad53a9aa3133</hash>
       </entry>
       <entry>
          <file>..\src\config\default\device.h</file>
@@ -13082,7 +13082,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\initialization.c</file>
-         <hash>50b63ca482a18b444f893ddc3e166b335a870498d5db0ae9cc116f0f3f340472</hash>
+         <hash>900003d6007b064e0e29fd6f41fbbfb13b665086262411206fdd6e159e5c007c</hash>
       </entry>
       <entry>
          <file>..\src\config\default\interrupts.c</file>
