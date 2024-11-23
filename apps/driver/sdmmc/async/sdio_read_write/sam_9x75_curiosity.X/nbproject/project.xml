@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>sam_9x75_curiosity</name>
+            <name>sdio_read_write_sam_9x75_curiosity</name>
             <creation-uuid>a7ce0fac-2265-43cb-8b5a-1a3818011e4f</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
