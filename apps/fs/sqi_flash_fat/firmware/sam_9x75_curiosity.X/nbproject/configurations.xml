@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
+    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity"
-                       displayName="sam_9x75_curiosity"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity" displayName="sam_9x75_curiosity" projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
             <logicalFolder name="memory" displayName="memory" projectFiles="true">
               <itemPath>../src/config/sam_9x75_curiosity/driver/memory/src/drv_memory_local.h</itemPath>
@@ -63,9 +59,7 @@
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system/ff.h</itemPath>
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system/ffconf.h</itemPath>
                 </logicalFolder>
-                <logicalFolder name="hardware_access"
-                               displayName="hardware_access"
-                               projectFiles="true">
+                <logicalFolder name="hardware_access" displayName="hardware_access" projectFiles="true">
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access/diskio.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -95,9 +89,7 @@
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="SAM9X75D2G_DFP"
-                       displayName="SAM9X75D2G_DFP"
-                       projectFiles="true">
+        <logicalFolder name="SAM9X75D2G_DFP" displayName="SAM9X75D2G_DFP" projectFiles="true">
           <logicalFolder name="component" displayName="component" projectFiles="true">
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/mpddrc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/sfr.h</itemPath>
@@ -230,30 +222,33 @@
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="true">
+    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity" displayName="sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity" projectFiles="true">
+        <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/HarmonyCore.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/core.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/dfp.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/drv_memory.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/drv_memory_0.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/drv_sst26.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/pit.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/qspi.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/sys_fs.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>sqi_flash_fat_sam_9x75_curiosity.mc3</itemPath>
     </logicalFolder>
-    <logicalFolder name="LinkerScript"
-                   displayName="Linker Files"
-                   projectFiles="true">
+    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity"
-                       displayName="sam_9x75_curiosity"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity" displayName="sam_9x75_curiosity" projectFiles="true">
           <itemPath>../src/config/sam_9x75_curiosity/ddram.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles"
-                   displayName="Source Files"
-                   projectFiles="true">
+    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity"
-                       displayName="sam_9x75_curiosity"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity" displayName="sam_9x75_curiosity" projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
             <logicalFolder name="memory" displayName="memory" projectFiles="true">
               <itemPath>../src/config/sam_9x75_curiosity/driver/memory/src/drv_memory.c</itemPath>
@@ -296,9 +291,7 @@
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system/ff.c</itemPath>
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system/ffunicode.c</itemPath>
                 </logicalFolder>
-                <logicalFolder name="hardware_access"
-                               displayName="hardware_access"
-                               projectFiles="true">
+                <logicalFolder name="hardware_access" displayName="hardware_access" projectFiles="true">
                   <itemPath>../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access/diskio.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -328,22 +321,21 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>SAM9X75D2G</targetDevice>
-        <targetHeader></targetHeader>
-        <targetPluginBoard></targetPluginBoard>
+        <targetHeader/>
+        <targetPluginBoard/>
         <platformTool>PK5Tool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.6.161"/>
+        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.9.170"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
         <ScriptingSetting key="boot.use" value="true"/>
         <ScriptingSetting key="boot.entry_adr" value=""/>
-        <ScriptingSetting key="boot.path"
-                          value="${ProjectDir}\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
+        <ScriptingSetting key="boot.path" value="${ProjectDir}\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
         <ScriptingSetting key="boot.prj" value=""/>
       </ScriptingSettings>
       <compileType>
@@ -356,7 +348,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile></alternateLoadableFile>
+          <alternateLoadableFile/>
         </loading>
         <subordinates>
         </subordinates>
@@ -364,7 +356,7 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPreStep/>
         <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep>${MP_CC_DIR}/xc32-objcopy -O binary ${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.elf ${DISTDIR}/harmony.bin</makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
@@ -379,8 +371,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -478,8 +469,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -513,12 +503,9 @@
       <PK5Tool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath"
-                  value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UpdateOptions"
-                  value="ToolFirmwareOption.UseLatest"/>
-        <property key="ToolFirmwareToolPack"
-                  value="Press to select which tool pack to use"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions" value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack" value="Press to select which tool pack to use"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="jtag"/>
         <property key="communication.interface.jtag" value="2wire"/>
@@ -542,8 +529,7 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
@@ -574,21 +560,16 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion"
-                  value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value="3.25"/>
       </PK5Tool>
       <Tool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath"
-                  value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UpdateOptions"
-                  value="ToolFirmwareOption.UseLatest"/>
-        <property key="ToolFirmwareToolPack"
-                  value="Press to select which tool pack to use"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions" value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack" value="Press to select which tool pack to use"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="jtag"/>
         <property key="communication.interface.jtag" value="2wire"/>
@@ -612,13 +593,11 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/h3/apps/core_apps_sam_9x7/apps/fs/sqi_flash_fat/firmware/sam_9x75_curiosity.X/debug/sam_9x75_curiosity/sam_9x75_curiosity_ptg"/>
+        <property key="programmerToGoFilePath" value="C:/h3/apps/core_apps_sam_9x7/apps/fs/sqi_flash_fat/firmware/sam_9x75_curiosity.X/debug/sam_9x75_curiosity/sam_9x75_curiosity_ptg"/>
         <property key="programmerToGoImageName" value="sam_9x75_curiosity_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -646,10 +625,8 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion"
-                  value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value="3.25"/>
       </Tool>
     </conf>
