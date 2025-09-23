@@ -227,10 +227,24 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity" displayName="fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity" projectFiles="true">
+        <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/BSP_SAM_9X75_Curiosity.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/HarmonyCore.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/core.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/dfp.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/drv_sdmmc.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/drv_sdmmc_0.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/sdmmc0.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/sys_fs.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/sys_time.yml</itemPath>
+          <itemPath>fs_sdmmc_fat_sam_9x75_curiosity_sam_9x75_curiosity/components/tc0.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_9x75_curiosity/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_9x75_curiosity/pin_configurations.csv</itemPath>
-      <itemPath>fs_sdmmc_fat_sam_9x75_curiosity.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
@@ -323,11 +337,11 @@
         <targetPluginBoard/>
         <platformTool>PK5Tool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.6.161"/>
+        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.9.170"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
