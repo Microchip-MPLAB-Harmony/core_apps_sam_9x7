@@ -29,7 +29,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity\ddram.ld
   hash: 6726b057f4693885faf7e71c8cfe44e210a9ae72e9af402661357fdf82e47276
 - file: ..\src\config\sam_9x75_curiosity\definitions.h
-  hash: 572c0ae5dbf6ae422e6d44555b9c60d688a238eb7f82fe99ac84c9bfd460fb49
+  hash: 0a680c050363ee56da2a3a6b1b2fb7c692ebcf7148d42ce660079271564a28f7
 - file: ..\src\config\sam_9x75_curiosity\device.h
   hash: a6942ec56b364ca7ce59259450eb2b74fca133605592dabe382afeb005ef56b8
 - file: ..\src\config\sam_9x75_curiosity\device_cache.h

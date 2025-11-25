@@ -257,7 +257,6 @@
         <itemPath>fs_sdmmc_fat_throughput_sam_9x75_curiosity_sam_9x75_curiosity/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_9x75_curiosity/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_9x75_curiosity/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"

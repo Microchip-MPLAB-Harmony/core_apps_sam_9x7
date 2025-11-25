@@ -32,7 +32,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_freertos\ddram.ld
   hash: 6726b057f4693885faf7e71c8cfe44e210a9ae72e9af402661357fdf82e47276
 - file: ..\src\config\sam_9x75_curiosity_freertos\definitions.h
-  hash: 7ed6fd2fb193b9926df550978890a53da506fcbb1690c5e133e12388c75cadbf
+  hash: 0d2415bbe150d8122056feaa3f112376ce8cf2612e4a5bd9237a380de2b518ff
 - file: ..\src\config\sam_9x75_curiosity_freertos\device.h
   hash: a6942ec56b364ca7ce59259450eb2b74fca133605592dabe382afeb005ef56b8
 - file: ..\src\config\sam_9x75_curiosity_freertos\device_cache.h

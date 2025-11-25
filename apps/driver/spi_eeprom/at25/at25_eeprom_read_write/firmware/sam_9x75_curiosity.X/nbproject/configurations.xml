@@ -230,6 +230,7 @@
         <itemPath>at25_eeprom_read_write_sam_9x75_curiosity_sam_9x75_curiosity/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/sam_9x75_curiosity/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -296,7 +297,6 @@
           <itemPath>../src/config/sam_9x75_curiosity/tasks.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/config/sam_9x75_curiosity/pin_configurations.csv</itemPath>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
     </logicalFolder>

@@ -265,7 +265,6 @@
         <itemPath>driver_i2c_sync_i2c_eeprom_sam_9x75_curiosity_freertos_sam_9x75_curiosity_freertos/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_9x75_curiosity_freertos/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_9x75_curiosity_freertos/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
