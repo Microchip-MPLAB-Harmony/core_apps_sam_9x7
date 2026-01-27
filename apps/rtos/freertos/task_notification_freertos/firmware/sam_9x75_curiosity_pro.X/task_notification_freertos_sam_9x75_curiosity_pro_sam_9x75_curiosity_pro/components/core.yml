@@ -1,0 +1,1974 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.3
+device: SAM9X75D2G
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  devMode: true
+  name: csp
+  type: package
+  version: v3.24.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '220'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    ADC_INTERRUPT_PRIORITY:
+      attributes:
+        id: ADC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ADC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: ADC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    AES_INTERRUPT_PRIORITY:
+      attributes:
+        id: AES_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    AES_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: AES_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    AIC_CODE_GENERATION:
+      attributes:
+        id: AIC_CODE_GENERATION
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AIC
+          type: Dynamic
+        type: Values
+      type: Combo
+    APP_START_ADDRESS:
+      attributes:
+        id: APP_START_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x23f00000'
+          type: Dynamic
+        type: Values
+      type: String
+    CLASSD_INTERRUPT_PRIORITY:
+      attributes:
+        id: CLASSD_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CLASSD_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: CLASSD_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    COMPILER_CHOICE:
+      attributes:
+        id: COMPILER_CHOICE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CSI2DC_INTERRUPT_PRIORITY:
+      attributes:
+        id: CSI2DC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CSI2DC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: CSI2DC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    DBGU_INTERRUPT_PRIORITY:
+      attributes:
+        id: DBGU_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    DBGU_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: DBGU_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ECC_INTERRUPT_HANDLER:
+      attributes:
+        id: ECC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: ECC_SharedHandler
+          type: Dynamic
+        type: Values
+      type: String
+    ECC_INTERRUPT_PRIORITY:
+      attributes:
+        id: ECC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ECC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: ECC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ECC_NUM_SHARES:
+      attributes:
+        id: ECC_NUM_SHARES
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EXT_FIQ_INTERRUPT_PRIORITY:
+      attributes:
+        id: EXT_FIQ_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    EXT_FIQ_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: EXT_FIQ_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    EXT_IRQ_INTERRUPT_PRIORITY:
+      attributes:
+        id: EXT_IRQ_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    EXT_IRQ_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: EXT_IRQ_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM0_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM10_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM10_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM10_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM10_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM11_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM11_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM11_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM11_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM12_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM12_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM12_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM12_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM1_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM2_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM2_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM2_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM2_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM3_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM3_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM3_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM3_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM4_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM4_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM4_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM4_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM5_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM5_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM5_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM5_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM6_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM6_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM6_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM6_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM7_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM7_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM7_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM7_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM8_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM8_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM8_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM8_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM9_INTERRUPT_PRIORITY:
+      attributes:
+        id: FLEXCOM9_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    FLEXCOM9_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: FLEXCOM9_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GFX2D_INTERRUPT_PRIORITY:
+      attributes:
+        id: GFX2D_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GFX2D_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GFX2D_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_EMAC_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_EMAC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_EMAC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_EMAC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_MMSL_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_MMSL_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_MMSL_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_MMSL_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q1_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_Q1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_Q1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q2_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_Q2_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q2_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_Q2_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q3_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_Q3_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q3_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_Q3_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q4_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_Q4_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q4_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_Q4_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q5_INTERRUPT_PRIORITY:
+      attributes:
+        id: GMAC_Q5_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GMAC_Q5_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: GMAC_Q5_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    I2SMCC_INTERRUPT_PRIORITY:
+      attributes:
+        id: I2SMCC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    I2SMCC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: I2SMCC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ISC_INTERRUPT_PRIORITY:
+      attributes:
+        id: ISC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    ISC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: ISC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    KEIL_STACK_HEAP_SIZE:
+      attributes:
+        id: KEIL_STACK_HEAP_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1200'
+          type: Dynamic
+        type: Values
+      type: String
+    LVDSC_INTERRUPT_PRIORITY:
+      attributes:
+        id: LVDSC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    LVDSC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: LVDSC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    LVDSPHY_INTERRUPT_PRIORITY:
+      attributes:
+        id: LVDSPHY_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    LVDSPHY_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: LVDSPHY_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MATRIX_INTERRUPT_PRIORITY:
+      attributes:
+        id: MATRIX_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MATRIX_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MATRIX_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN0_INT0_INTERRUPT_PRIORITY:
+      attributes:
+        id: MCAN0_INT0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN0_INT0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MCAN0_INT0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN0_INT1_INTERRUPT_PRIORITY:
+      attributes:
+        id: MCAN0_INT1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN0_INT1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MCAN0_INT1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN1_INT0_INTERRUPT_PRIORITY:
+      attributes:
+        id: MCAN1_INT0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN1_INT0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MCAN1_INT0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN1_INT1_INTERRUPT_PRIORITY:
+      attributes:
+        id: MCAN1_INT1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MCAN1_INT1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MCAN1_INT1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MC_INTERRUPT_HANDLER:
+      attributes:
+        id: MC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: MC_SharedHandler
+          type: Dynamic
+        type: Values
+      type: String
+    MC_INTERRUPT_PRIORITY:
+      attributes:
+        id: MC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: MC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MC_NUM_SHARES:
+      attributes:
+        id: MC_NUM_SHARES
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    NUM_SHARED_VECTORS:
+      attributes:
+        id: NUM_SHARED_VECTORS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3'
+          type: Dynamic
+        type: Values
+      type: Integer
+    OTPC_INTERRUPT_PRIORITY:
+      attributes:
+        id: OTPC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    OTPC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: OTPC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIN_106_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_106_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: SWITCH_AL
+          type: User
+        type: Values
+      type: String
+    PIN_3_LAT:
+      attributes:
+        id: PIN_3_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_3_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_3_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_48_LAT:
+      attributes:
+        id: PIN_48_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_48_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_48_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: LED_AH
+          type: User
+        type: Values
+      type: String
+    PIN_4_FUNCTION_NAME:
+      attributes:
+        id: PIN_4_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_4_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_4_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_50_LAT:
+      attributes:
+        id: PIN_50_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_50_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_50_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: LED_AH
+          type: User
+        type: Values
+      type: String
+    PIN_67_FUNCTION_NAME:
+      attributes:
+        id: PIN_67_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_67_LAT:
+      attributes:
+        id: PIN_67_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_67_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_67_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_68_FUNCTION_NAME:
+      attributes:
+        id: PIN_68_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_68_LAT:
+      attributes:
+        id: PIN_68_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_68_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_68_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_79_LAT:
+      attributes:
+        id: PIN_79_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_79_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_79_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: LED_AH
+          type: User
+        type: Values
+      type: String
+    PIOA_CLOCK_ENABLE:
+      attributes:
+        id: PIOA_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIOA_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIOA_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOA_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIOA_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOB_CLOCK_ENABLE:
+      attributes:
+        id: PIOB_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIOB_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIOB_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOB_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIOB_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOC_ABCDSR1_VALUE:
+      attributes:
+        id: PIOC_ABCDSR1_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_ABCDSR2_VALUE:
+      attributes:
+        id: PIOC_ABCDSR2_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_CLOCK_ENABLE:
+      attributes:
+        id: PIOC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIOC_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIOC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIOC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOC_OER_VALUE:
+      attributes:
+        id: PIOC_OER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3686400'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_PDR_VALUE:
+      attributes:
+        id: PIOC_PDR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_PUER_VALUE:
+      attributes:
+        id: PIOC_PUER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '512'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_SODR_VALUE:
+      attributes:
+        id: PIOC_SODR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOD_CLOCK_ENABLE:
+      attributes:
+        id: PIOD_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIOD_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIOD_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIOD_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIOD_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIT64B0_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIT64B0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIT64B0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIT64B0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIT64B1_INTERRUPT_PRIORITY:
+      attributes:
+        id: PIT64B1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIT64B1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PIT64B1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PIT_INTERRUPT_ENABLE:
+      attributes:
+        id: PIT_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: pit
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIT_INTERRUPT_HANDLER:
+      attributes:
+        id: PIT_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: pit
+            value: PIT_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    PWM_INTERRUPT_PRIORITY:
+      attributes:
+        id: PWM_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    PWM_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: PWM_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    QSPI_INTERRUPT_PRIORITY:
+      attributes:
+        id: QSPI_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    QSPI_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: QSPI_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SDMMC0_INTERRUPT_PRIORITY:
+      attributes:
+        id: SDMMC0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SDMMC0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: SDMMC0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SDMMC1_INTERRUPT_PRIORITY:
+      attributes:
+        id: SDMMC1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SDMMC1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: SDMMC1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SECURE_TO_NONSECURE_REDIRECTION:
+      attributes:
+        id: SECURE_TO_NONSECURE_REDIRECTION
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SHA_INTERRUPT_PRIORITY:
+      attributes:
+        id: SHA_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SHA_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: SHA_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SSC_INTERRUPT_PRIORITY:
+      attributes:
+        id: SSC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SSC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: SSC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SYSC_INTERRUPT_ENABLE:
+      attributes:
+        id: SYSC_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SYSC_INTERRUPT_HANDLER:
+      attributes:
+        id: SYSC_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SYSC_SharedHandler
+          type: Dynamic
+        type: Values
+      type: String
+    SYSC_INTERRUPT_PRIORITY:
+      attributes:
+        id: SYSC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SYSC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: SYSC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    SYSC_NUM_SHARES:
+      attributes:
+        id: SYSC_NUM_SHARES
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '6'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC0_INTERRUPT_PRIORITY:
+      attributes:
+        id: TC0_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TC0_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: TC0_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TC1_INTERRUPT_PRIORITY:
+      attributes:
+        id: TC1_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TC1_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: TC1_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TDES_INTERRUPT_PRIORITY:
+      attributes:
+        id: TDES_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TDES_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: TDES_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TRNG_INTERRUPT_PRIORITY:
+      attributes:
+        id: TRNG_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    TRNG_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: TRNG_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    UDPHS_INTERRUPT_PRIORITY:
+      attributes:
+        id: UDPHS_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    UDPHS_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: UDPHS_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    UHPHS_INTERRUPT_PRIORITY:
+      attributes:
+        id: UHPHS_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    UHPHS_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: UHPHS_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    USE_FREERTOS_VECTORS:
+      attributes:
+        id: USE_FREERTOS_VECTORS
+      children:
+      - children:
+        - attributes:
+            id: FreeRTOS
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    WDT_EARLY_RESET_ACTION:
+      attributes:
+        id: WDT_EARLY_RESET_ACTION
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    WDT_EARLY_RESET_THRESHOLD_MILLISECONDS:
+      attributes:
+        id: WDT_EARLY_RESET_THRESHOLD_MILLISECONDS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    WDT_INTERRUPT_ENABLE:
+      attributes:
+        id: WDT_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    WDT_INTERRUPT_HANDLER:
+      attributes:
+        id: WDT_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: WDT_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    WDT_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: WDT_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    WDT_LEVEL_EXPIRATION:
+      attributes:
+        id: WDT_LEVEL_EXPIRATION
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    WDT_LEVEL_THRESHOLD_MILLISECONDS:
+      attributes:
+        id: WDT_LEVEL_THRESHOLD_MILLISECONDS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '15000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    WDT_PERIOD_COUNT:
+      attributes:
+        id: WDT_PERIOD_COUNT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '4000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    WDT_PERIOD_EXPIRATION:
+      attributes:
+        id: WDT_PERIOD_EXPIRATION
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    WDT_PERIOD_MILLISECONDS:
+      attributes:
+        id: WDT_PERIOD_MILLISECONDS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '16000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    XDMAC_INTERRUPT_PRIORITY:
+      attributes:
+        id: XDMAC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    XDMAC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: XDMAC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    XLCDC_INTERRUPT_PRIORITY:
+      attributes:
+        id: XLCDC_INTERRUPT_PRIORITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    XLCDC_INTERRUPT_SRC_TYPE:
+      attributes:
+        id: XLCDC_INTERRUPT_SRC_TYPE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '279'
+        canvasWidth: '669'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
