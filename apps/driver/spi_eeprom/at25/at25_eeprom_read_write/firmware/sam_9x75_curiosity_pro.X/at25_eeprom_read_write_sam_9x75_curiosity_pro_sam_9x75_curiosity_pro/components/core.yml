@@ -1,0 +1,485 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.3
+device: SAM9X75D2G
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  devMode: true
+  name: csp
+  type: package
+  version: v3.24.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '240'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    FLEXCOM3_CLOCK_ENABLE:
+      attributes:
+        id: FLEXCOM3_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: flexcom3
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FLEXCOM3_CLOCK_FREQUENCY:
+      attributes:
+        id: FLEXCOM3_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '266666666'
+          type: Dynamic
+        type: Values
+      type: Integer
+    FLEXCOM3_INTERRUPT_ENABLE:
+      attributes:
+        id: FLEXCOM3_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: flexcom3
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FLEXCOM3_INTERRUPT_HANDLER:
+      attributes:
+        id: FLEXCOM3_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: flexcom3
+            value: FLEXCOM3_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    FLEXCOM3_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: FLEXCOM3_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: flexcom3
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_106_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_106_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: SWITCH_AL
+          type: User
+        type: Values
+      type: String
+    PIN_31_DIR:
+      attributes:
+        id: PIN_31_DIR
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_31_FUNCTION_NAME:
+      attributes:
+        id: PIN_31_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_31_FUNCTION_TYPE:
+      attributes:
+        id: PIN_31_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_31_LAT:
+      attributes:
+        id: PIN_31_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_31_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_31_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_32_FUNCTION_TYPE:
+      attributes:
+        id: PIN_32_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: FLEXCOM3_IO2
+          type: User
+        type: Values
+      type: String
+    PIN_32_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_32_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_34_DIR:
+      attributes:
+        id: PIN_34_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_34_FUNCTION_NAME:
+      attributes:
+        id: PIN_34_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: WP
+          type: User
+        type: Values
+      type: String
+    PIN_34_FUNCTION_TYPE:
+      attributes:
+        id: PIN_34_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_34_LAT:
+      attributes:
+        id: PIN_34_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_34_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_34_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_48_LAT:
+      attributes:
+        id: PIN_48_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_48_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_48_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: LED_AH
+          type: User
+        type: Values
+      type: String
+    PIN_49_FUNCTION_TYPE:
+      attributes:
+        id: PIN_49_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: FLEXCOM3_IO0
+          type: User
+        type: Values
+      type: String
+    PIN_49_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_49_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_50_DIR:
+      attributes:
+        id: PIN_50_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_50_FUNCTION_NAME:
+      attributes:
+        id: PIN_50_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: HOLD
+          type: User
+        type: Values
+      type: String
+    PIN_50_FUNCTION_TYPE:
+      attributes:
+        id: PIN_50_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_50_LAT:
+      attributes:
+        id: PIN_50_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_50_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_50_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_68_FUNCTION_TYPE:
+      attributes:
+        id: PIN_68_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: FLEXCOM3_IO1
+          type: User
+        type: Values
+      type: String
+    PIN_68_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_68_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: B
+          type: User
+        type: Values
+      type: String
+    PIN_79_LAT:
+      attributes:
+        id: PIN_79_LAT
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_79_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_79_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: LED_AH
+          type: User
+        type: Values
+      type: String
+    PIN_94_LAT:
+      attributes:
+        id: PIN_94_LAT
+      children:
+      - children:
+        - attributes:
+            value: High
+          type: User
+        type: Values
+      type: String
+    PIN_94_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_94_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIOC_ABCDSR1_VALUE:
+      attributes:
+        id: PIOC_ABCDSR1_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '79691776'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_ABCDSR2_VALUE:
+      attributes:
+        id: PIOC_ABCDSR2_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_OER_VALUE:
+      attributes:
+        id: PIOC_OER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '37240832'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_PDR_VALUE:
+      attributes:
+        id: PIOC_PDR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '79691776'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_PUER_VALUE:
+      attributes:
+        id: PIOC_PUER_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '512'
+          type: Dynamic
+        type: Values
+      type: Hex
+    PIOC_SODR_VALUE:
+      attributes:
+        id: PIOC_SODR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '36175872'
+          type: Dynamic
+        type: Values
+      type: Hex
+    COMPONENT_PACKAGE:
+      attributes:
+        id: COMPONENT_PACKAGE
+      children:
+      - children:
+        - attributes:
+            value: BGA243
+          type: User
+        type: Values
+      type: Combo
+    PIN_94_FUNCTION_TYPE:
+      attributes:
+        id: PIN_94_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_94_FUNCTION_NAME:
+      attributes:
+        id: PIN_94_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: CS
+          type: User
+        type: Values
+      type: String
+    PIN_94_DIR:
+      attributes:
+        id: PIN_94_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '270'
+        canvasWidth: '703'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
