@@ -4,20 +4,20 @@
 
 
 project: task_notification_freertos_sam_9x75_curiosity_pro
-creation_date: 2026-01-27T19:21:53.837+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-03-13T15:10:34.769+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.6.3
-mcc_core_version: v5.8.3
-mplabx_version: v6.25        # if MPLAB X plugin only
-harmony_version: v5.6.3
-compiler: XC32 4.60
+mcc_version: v5.6.4
+mcc_core_version: v5.8.4
+mplabx_version: v6.30        # if MPLAB X plugin only
+harmony_version: v5.6.4
+compiler: XC32 5.00
 
 modules:
-    - {name: "csp", version: "v3.24.0"}
-    - {name: "core", version: "v3.15.5"}
+    - {name: "csp", version: "v3.25.1"}
+    - {name: "core", version: "v3.16.1"}
     - {name: "FreeRTOS-Kernel", version: "V11.1.0"}
-    - {name: "bsp", version: "v3.23.0"}
+    - {name: "bsp", version: "v3.25.0"}
 
 packs:
     - {name: "SAM9X7_DFP", version: "1.9.170"}
