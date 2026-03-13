@@ -372,7 +372,7 @@
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
-        <ScriptingSetting key="boot.use" value="false"/>
+        <ScriptingSetting key="boot.use" value="true"/>
         <ScriptingSetting key="boot.entry_adr" value=""/>
         <ScriptingSetting key="boot.path"
                           value="${ProjectDir}\..\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
@@ -615,8 +615,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Users/I76597/h3/Core_apps/core_apps_sam_9x7/apps/rtos/freertos/basic_freertos/firmware/sam_9x75_curiosity_pro.X/debug/sam_9x75_curiosity_pro/sam_9x75_curiosity_pro_ptg"/>
         <property key="programmerToGoImageName" value="sam_9x75_curiosity_pro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -689,6 +687,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/I76597/h3/Core_apps/core_apps_sam_9x7/apps/rtos/freertos/basic_freertos/firmware/sam_9x75_curiosity_pro.X/debug/sam_9x75_curiosity_pro/sam_9x75_curiosity_pro_ptg"/>
         <property key="programmerToGoImageName" value="sam_9x75_curiosity_pro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
