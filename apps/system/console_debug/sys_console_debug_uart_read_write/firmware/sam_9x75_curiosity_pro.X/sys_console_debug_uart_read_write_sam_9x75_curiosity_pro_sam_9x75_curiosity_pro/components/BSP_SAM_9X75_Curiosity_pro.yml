@@ -1,17 +1,17 @@
 configVersion: 1.0.0
-componentName: BSP_SAM_9X75_Curiosity_Pro
-coreVersion: 5.8.3
+componentName: BSP_SAM_9X75_Curiosity_pro
+coreVersion: 5.8.4
 device: SAM9X75D2G
 library: []
 dependency:
 - dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
-  name: BSP_SAM_9X75_Curiosity_Pro
+  name: BSP_SAM_9X75_Curiosity_pro
   type: module
   version: ''
 - dependencyPackage: ''
   name: bsp
   type: package
-  version: v3.23.0
+  version: v3.25.0
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments: {}
@@ -21,9 +21,9 @@ data:
     children:
     - children:
       - attributes:
-          id: BSP_SAM_9X75_Curiosity_Pro
-          x: '507'
-          y: '41'
+          id: BSP_SAM_9X75_Curiosity_pro
+          x: '24'
+          y: '291'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph
