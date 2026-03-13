@@ -84,11 +84,11 @@
             <itemPath>../src/config/sam_9x75_curiosity_pro/system/system_module.h</itemPath>
             <itemPath>../src/config/sam_9x75_curiosity_pro/system/system_media.h</itemPath>
           </logicalFolder>
+          <itemPath>../src/config/sam_9x75_curiosity_pro/device.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/device_cache.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/definitions.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/interrupts.h</itemPath>
-          <itemPath>../src/config/sam_9x75_curiosity_pro/device.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/user.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/configuration.h</itemPath>
           <itemPath>../src/config/sam_9x75_curiosity_pro/sys_tasks.h</itemPath>
@@ -99,128 +99,128 @@
                        displayName="SAM9X75D2G_DFP"
                        projectFiles="true">
           <logicalFolder name="component" displayName="component" projectFiles="true">
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/mpddrc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sfr.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/isc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/syscwp.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/csi2dc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/matrix.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/bsc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pit64b.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/tdes.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/adc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/aes.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/csi.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/smc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/mcan.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rtt.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/classd.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gfx2d.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/uhphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rtc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/wdt.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/dbgu.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/lvdsc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/flexcom.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/uhpfs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/lcdc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pio.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/tc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gpbr.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/ssc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/qspi.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmecc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/dsi.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/i2smcc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmerrloc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/xdmac.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/shdwc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/aic.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/bsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/classd.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/csi.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/csi2dc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/dbgu.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/dsi.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/flexcom.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gfx2d.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gmac.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gpbr.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/i2smcc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/isc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/lcdc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/lvdsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/mcan.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/mpddrc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/otpc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pio.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/pit.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pit64b.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmecc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pmerrloc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/puf.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pwm.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/qspi.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rtt.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sckc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sdmmc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sfr.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sha.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/shdwc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/smc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/ssc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/syscwp.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/tdes.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/trng.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/udphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sdmmc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/gmac.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/otpc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sha.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/pwm.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/adc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/sckc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/puf.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/uhpfs.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/uhphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/component/xdmac.h</itemPath>
           </logicalFolder>
           <logicalFolder name="instance" displayName="instance" projectFiles="true">
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom1.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom5.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/adc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom9.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/i2smcc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom10.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tdes.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/bsc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sckc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/aes.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/aic.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mcan1.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/bsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/classd.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/csi.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/csi2dc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/dbgu.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/dsi.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom0.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom1.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom10.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom11.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom12.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom2.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom3.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom4.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom5.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom6.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom7.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom8.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom9.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gfx2d.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gmac.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gpbr.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/i2smcc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/isc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/lvdsc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/lvdsphy.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mcan0.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mcan1.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mipiphy.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mpddrc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/otpc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pioa.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/piob.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pioc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit64b0.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit64b1.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pmc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pmecc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/dbgu.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom0.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit64b1.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pmerrloc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xdmac.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom4.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom8.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/shdwc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sdmmc0.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gmac.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/udphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/csi2dc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mcan0.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/lvdsc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tc1.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pioc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/trng.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/classd.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit64b0.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom3.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom7.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sdmmc1.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/rtc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/puf.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pwm.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/qspi.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/rstc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom12.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sckc.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sdmmc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sdmmc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sfr.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sha.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/shdwc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/smc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/ssc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gfx2d.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ohci.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/qspi.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/otpc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tc0.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/rtt.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/dsi.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/piob.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/puf.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom2.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mpddrc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/gpbr.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom6.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/wdt.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xlcdc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/flexcom11.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sfr.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/isc.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pit.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pwm.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/sha.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/syscwp.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/tdes.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/udphs.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ehci.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/pioa.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/mipiphy.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/lvdsphy.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ohci.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xdmac.h</itemPath>
+            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xlcdc.h</itemPath>
           </logicalFolder>
           <logicalFolder name="pio" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/SAM9X75D2G_DFP/pio/sam9x75d2g.h</itemPath>
@@ -238,14 +238,14 @@
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/drv_sst26.yml</itemPath>
-          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/pit.yml</itemPath>
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dfp.yml</itemPath>
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/qspi.yml</itemPath>
-          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/drv_memory.yml</itemPath>
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/sys_fs.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/pit.yml</itemPath>
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/core.yml</itemPath>
-          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/HarmonyCore.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/drv_memory.yml</itemPath>
           <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/drv_memory_0.yml</itemPath>
+          <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/HarmonyCore.yml</itemPath>
         </logicalFolder>
         <itemPath>sqi_flash_fat_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -337,8 +337,8 @@
           <itemPath>../src/config/sam_9x75_curiosity_pro/tasks.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/app.c</itemPath>
       <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/app.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -349,20 +349,20 @@
         <targetDevice>SAM9X75D2G</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>j32</platformTool>
+        <platformTool>PK5Tool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.9.170"/>
+        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.11.213"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
-        <ScriptingSetting key="boot.use" value="true"/>
+        <ScriptingSetting key="boot.use" value="false"/>
         <ScriptingSetting key="boot.entry_adr" value=""/>
         <ScriptingSetting key="boot.path"
-                          value="${ProjectDir}\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
+                          value="${ProjectDir}\..\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
         <ScriptingSetting key="boot.prj" value=""/>
       </ScriptingSettings>
       <compileType>
@@ -384,8 +384,8 @@
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
-        <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep>${MP_CC_DIR}/xc32-objcopy -O binary ${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.elf ${DISTDIR}/harmony.bin</makeCustomizationPostStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -393,6 +393,7 @@
       <C32>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value="-marm"/>
         <property key="cast-align" value="false"/>
         <property key="code-model" value="default"/>
         <property key="const-model" value="default"/>
@@ -407,7 +408,7 @@
         <property key="exclude-floating-point" value="false"/>
         <property key="expand-pragma-config" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity_pro;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
+                  value="../src;../src/config/sam_9x75_curiosity_pro;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -472,6 +473,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -517,6 +519,7 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -526,7 +529,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/config/default/system/fs/fat_fs/file_system;../src/config/default/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity;../src/config/sam_9x75_curiosity/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity/system/fs/fat_fs/hardware_access;../src/config/sam_9x75_curiosity_pro;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
+                  value="../src;../src/config/sam_9x75_curiosity_pro;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/file_system;../src/config/sam_9x75_curiosity_pro/system/fs/fat_fs/hardware_access;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -580,7 +583,7 @@
         <property key="communication.speed" value="4.000"/>
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
-        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="event.recorder.debugger.behavior" value="Running"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
@@ -602,7 +605,9 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoImageName" value="sam_9x75_curiosity_ptg"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/I76597/h3/Core_apps/core_apps_sam_9x7/apps/fs/sqi_flash_fat/firmware/sam_9x75_curiosity_pro.X/debug/sam_9x75_curiosity_pro/sam_9x75_curiosity_pro_ptg"/>
+        <property key="programmerToGoImageName" value="sam_9x75_curiosity_pro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
@@ -645,15 +650,14 @@
                   value="ToolFirmwareOption.UseLatest"/>
         <property key="ToolFirmwareToolPack"
                   value="Press to select which tool pack to use"/>
+        <property key="bluetoothsetting" value="do.not.change"/>
         <property key="communication.activationmode" value="nohv"/>
-        <property key="communication.adaptivespeed" value="false"/>
-        <property key="communication.autoselectspeed" value="true"/>
-        <property key="communication.interface" value="4wire"/>
+        <property key="communication.interface" value="jtag"/>
         <property key="communication.interface.jtag" value="2wire"/>
-        <property key="communication.speed" value="4"/>
+        <property key="communication.speed" value="4.000"/>
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
-        <property key="debugoptions.useswbreakpoints" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="event.recorder.debugger.behavior" value="Running"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
@@ -670,17 +674,14 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram" value="true"/>
         <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges.default}"/>
+                  value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
-        <property key="memories.programmemory.ranges" value="0x300000-0xeff00fff"/>
+        <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/h3/apps/core_apps_sam_9x7/apps/fs/sqi_flash_fat/firmware/sam_9x75_curiosity.X/debug/sam_9x75_curiosity/sam_9x75_curiosity_ptg"/>
-        <property key="programmerToGoImageName" value="sam_9x75_curiosity_ptg"/>
+        <property key="programmerToGoImageName" value="sam_9x75_curiosity_pro_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
-        <property key="programoptions.eraseb4program" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
         <property key="programoptions.pgcconfig" value="pull down"/>
         <property key="programoptions.pgcresistor.value" value="4.7"/>
@@ -688,14 +689,10 @@
         <property key="programoptions.pgdresistor.value" value="4.7"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
         <property key="programoptions.pgmspeed" value="Med"/>
-        <property key="programoptions.preservebootflash" value="false"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
-        <property key="programoptions.preserveprogrammemory" value="false"/>
-        <property key="programoptions.preserveprogrammemory.ranges"
-                  value="0x300000-0xeff00fff"/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.program.otpconfig" value="false"/>
@@ -715,43 +712,7 @@
         <property key="toolpack.updateoptions.packversion"
                   value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value="3.25"/>
-        <property key="x.recover.delay" value="100000"/>
       </Tool>
-      <j32>
-        <property key="AutoSelectMemRanges" value="auto"/>
-        <property key="communication.adaptivespeed" value="false"/>
-        <property key="communication.autoselectspeed" value="true"/>
-        <property key="communication.interface" value="4wire"/>
-        <property key="communication.speed" value="4"/>
-        <property key="debugoptions.debug-startup" value="Use system settings"/>
-        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
-        <property key="event.recorder.debugger.behavior" value="Running"/>
-        <property key="event.recorder.enabled" value="false"/>
-        <property key="event.recorder.scvd.files" value=""/>
-        <property key="jlink.override" value=""/>
-        <property key="lastid" value=""/>
-        <property key="loader.board_file" value="${ProjectDir}/board.xboard"/>
-        <property key="memories.bootflash" value="true"/>
-        <property key="memories.configurationmemory" value="true"/>
-        <property key="memories.eeprom" value="true"/>
-        <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram" value="true"/>
-        <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges.default}"/>
-        <property key="memories.programmemory" value="true"/>
-        <property key="memories.programmemory.ranges" value="0x300000-0xeff00fff"/>
-        <property key="programoptions.eraseb4program" value="false"/>
-        <property key="programoptions.preservebootflash" value="false"/>
-        <property key="programoptions.preserveprogrammemory" value="false"/>
-        <property key="programoptions.preserveprogrammemory.ranges"
-                  value="0x300000-0xeff00fff"/>
-        <property key="programoptions.resetafterprogram" value="true"/>
-        <property key="script.has_reset" value="true"/>
-        <property key="script.log_level" value="1"/>
-        <property key="script.reset_delay" value="0"/>
-        <property key="script.show_output" value="false"/>
-        <property key="x.recover.delay" value="100000"/>
-      </j32>
     </conf>
   </confs>
 </configurationDescriptor>
