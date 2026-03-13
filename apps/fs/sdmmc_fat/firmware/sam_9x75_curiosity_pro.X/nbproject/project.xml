@@ -4,17 +4,11 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>fs_sdmmc_fat_sam_9x75_curiosity_pro</name>
-            <creation-uuid>e54023e9-3948-44ef-bf6f-29d8b223e555</creation-uuid>
+            <creation-uuid>c9a318cb-0f75-479f-8d78-c31a9903acd5</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions>c,S</c-extensions>
-            <cpp-extensions/>
-            <header-extensions>h</header-extensions>
-            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList>
-                <sourceRootElem>../src</sourceRootElem>
-            </sourceRootList>
+            <sourceRootList/>
             <confList>
                 <confElem>
                     <name>sam_9x75_curiosity_pro</name>
