@@ -1,12 +1,11 @@
 configVersion: 1.0.0
-coreVersion: 5.8.3
-spaHostVersion: 1.2.0
+coreVersion: 5.8.4
+spaHostVersion: 1.2.1
 device: SAM9X75D2G
-deviceLibrary:
-  className: com.microchip.mcc.harmony.Harmony3Library
+deviceLibrary: {}
 groupModules: []
 modules:
-- BSP_SAM_9X75_Curiosity_Pro
+- BSP_SAM_9X75_Curiosity_pro
 - FreeRTOS
 - HarmonyCore
 - core
@@ -17,11 +16,9 @@ modules:
 - pit
 generatedFileHashHistoryMap:
 - file: ..\src\app_i2c_eeprom.c
-  hash: 98f4e0787ba2a11e6101644123655da0f1b6c53c2db1aea8182bb5099f073e07
 - file: ..\src\app_i2c_eeprom.h
-  hash: 2a9477f41dd354eea3f8a4fb5b678794487ff01d9655b53bf796f846c50f094b
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\FreeRTOSConfig.h
-  hash: b039557ac6b20ead7b963b5906c05fc381db1e01b57368a894c802d234d146a1
+  hash: 1f4b264203d04eef0b9ccfe3f73df21f873dd106e666b4dad4020c05dd8583e9
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\bsp\bsp.c
   hash: b4d2be4534deb0aea9b2d2d61ee1d270f97127b25a0e94c7f6a3df348aab63db
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\bsp\bsp.h
@@ -35,7 +32,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\definitions.h
   hash: 579ce35cc5e3c45b99c677b094b8242a4b7c10996c5aa21678a662441807f85a
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\device.h
-  hash: a6942ec56b364ca7ce59259450eb2b74fca133605592dabe382afeb005ef56b8
+  hash: c59514bb3f1551407ee3f43109f637b28b915d65539b1eb92c55ded669c4ba5f
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\device_cache.h
   hash: 022a4c6bce1d10badd66bfa60707c3dbc830d5b1a6702dfd825d3317ccba1188
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\driver.h
@@ -43,11 +40,11 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\driver_common.h
   hash: 5217965f6720b4fdf717e99ce9df4f2c9fbd82bbbc9655847166d1eefa806fee
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\i2c\drv_i2c.h
-  hash: a2e3e35a45be2dffd93f381c5eb7d50a9f2fd955aee73cdd3da3178c7c3cfed9
+  hash: f9bd0d8e7a9a6987ee0b0788b741786cc3879efdf7f54908d945c63a85694d09
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\i2c\drv_i2c_definitions.h
   hash: 929077879a4fe3e202ecbe796f076fe88435ea327ec0d8c573de6df7151e8601
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\i2c\src\drv_i2c.c
-  hash: 0f8d004b3a1546705accef2a57e1fe61e1ee03854d49b6060b0ca0e3c98edffe
+  hash: 7f3ff7e9761d33340b0b4da408d99f0df7d1f1e5b9581bd67a9cf6af77bc89ab
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\driver\i2c\src\drv_i2c_local.h
   hash: a5b8e0e4f5644b88470600c3e52e76f9492bfc52e65210d6f94d6b87374e9bce
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\fault_handlers.c
@@ -65,7 +62,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\osal\osal_definitions.h
   hash: af2f2336fac0fd5b49fb2d1c8f81baa4f554101b06f130aaa608cd9685c4ac35
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\osal\osal_freertos.c
-  hash: 565c6dc54044f91bfd235f3f240e2ddf0ff49189d692fe5be50862d2b6c296f0
+  hash: 7f2e2854a734bd0813e3316218d0d6e49b6d83ac3f8a166c9444b3fedad10922
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\osal\osal_freertos.h
   hash: f9d8c97ce37bbb7516242ec37c4b0db387090cfed54580af683bc0ce126094e0
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\peripheral\aic\plib_aic.c
@@ -89,7 +86,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\peripheral\mmu\plib_mmu.h
   hash: 7fb6e6b8ad6a80b7fc04c0264b7cdf49e6d6b887e4f3c5aa394eda88e32e0116
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\peripheral\pio\plib_pio.c
-  hash: bd47adb2b50963b5542ae284454bca25e217a2226ed379f67cd1dd1c32c9cafc
+  hash: 39be5e755badebde74e5854184023fa2768c70640620cf7c66d31135f81fff24
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\peripheral\pio\plib_pio.h
   hash: c785d51de6f490e2ed6c65cede52ab5a0a663aedd1bbeda06ad1a5fa74b77332
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\peripheral\pit\plib_pit.c
@@ -103,7 +100,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\sys_tasks.h
   hash: a78f35dc62ef3b44b2f70a56bf4df37837cd05e2fec7f4b35b69ccf9775cd2ab
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\cache\sys_cache.c
-  hash: 9754314ec0e099723a3604ecfe12fb6e682cf64cddf01c968ca931d26c448f0e
+  hash: b591db2acf1ca4ac0bc36b95b019ceaada77251b677bc4719e6209674d5de7b9
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\cache\sys_cache.h
   hash: b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\debug\sys_debug.h
@@ -111,23 +108,21 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\int\src\sys_int.c
   hash: 5a683ab50cabf3aa131d76d12f4715e103de0e5cce67d22ab26d11665c38614f
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\int\sys_int.h
-  hash: dc104ae181fd5309e1bb42896246644fae95915a8e639b23ecfccc8840850274
+  hash: d8207e3358a37e8e964cd563150eda15ac17ec512b6e3c221f5603d9fa2da0ca
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\int\sys_int_mapping.h
-  hash: 652a7ea6c065e3a4cbcbfaef7c3519fca207fa36de25351875c3ba746dff242b
+  hash: cf31317ddcb2f4a47d63c746fb032a8466469d1bca0cf68beb0c2ef3d2c08429
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\system.h
   hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\system_common.h
   hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\system\system_module.h
-  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+  hash: 7bfe351ce506b843c61e5be013b6e3bf2a6253d73f5db189dbaf0c4f494cb75a
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\tasks.c
   hash: 3a849c2776f65d56d3cd9175d371d4a50280d9c217544f4382a04a336b951a3a
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\toolchain_specifics.h
   hash: 61b9d7e2427b11029b90cfefa844e187899beffb4b351ccbfab471fd44dbbf2d
 - file: ..\src\config\sam_9x75_curiosity_pro_freertos\user.h
-  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
 - file: ..\src\main.c
-  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
 - file: ..\src\packs\SAM9X75D2G_DFP\component\adc.h
   hash: b5418ec6d5d22ea46e311c23a79fd35f81d009457643c61d7981c599c0702d9c
 - file: ..\src\packs\SAM9X75D2G_DFP\component\aes.h
