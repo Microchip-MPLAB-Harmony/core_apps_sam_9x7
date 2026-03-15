@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>sdio_read_write_sam_9x75_curiosity_pro</name>
-            <creation-uuid>a7ce0fac-2265-43cb-8b5a-1a3818011e4f</creation-uuid>
+            <creation-uuid>d29d4a65-dde5-4be4-bf6d-0f4421ae8666</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
