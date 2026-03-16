@@ -70,7 +70,7 @@
 
 #define APP_FILE_NAME               "newfile.txt"
 
-#define KEEP                        __attribute__((keep, section(".ram_nocache"), address(DRV_MEMORY_DEVICE_START_ADDRESS)))
+#define KEEP                        __attribute__((section(".region_nocache")))
 
 // *****************************************************************************
 /* Application Data
