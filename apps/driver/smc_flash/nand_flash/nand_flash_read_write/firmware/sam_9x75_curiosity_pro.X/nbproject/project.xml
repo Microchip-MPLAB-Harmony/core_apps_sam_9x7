@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>nand_flash_read_write_sam_9x75_curiosity_pro</name>
-            <creation-uuid>baa0ade8-33a5-401f-b17e-a31cb17f7526</creation-uuid>
+            <creation-uuid>09969874-6546-4e8c-b504-cf6007b39410</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
