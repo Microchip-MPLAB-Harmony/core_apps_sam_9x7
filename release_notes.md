@@ -3,6 +3,31 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 driver and system service application examples for SAM9X7 family v3.5.0
+
+### Development kit and demo application support
+
+Following table provides number of driver and system service examples available for different development kits.
+
+| Development Kits  | MPLAB X applications |
+|:-----------------:|:-------------------:|
+| [SAM9X75 Curiosity Pro Development Board]() | 16 |
+
+### New Features
+
+- None
+
+### Known Issues
+
+- None
+
+### Development Tools
+
+- [MPLAB® X IDE 6.30](https://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® X IDE plug-ins:
+  - MPLAB® Code Configurator (MCC) 5.6.4
+- [MPLAB® XC32 C/C++ Compiler 5.00](https://www.microchip.com/mplab/compilers)
+
 ## Harmony 3 driver and system service application examples for SAM9X7 family v3.4.1
 
 ### Development kit and demo application support
