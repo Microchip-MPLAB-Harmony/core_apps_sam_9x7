@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
+    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity_pro"
-                       displayName="sam_9x75_curiosity_pro"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity_pro" displayName="sam_9x75_curiosity_pro" projectFiles="true">
           <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/sam_9x75_curiosity_pro/bsp/bsp.h</itemPath>
           </logicalFolder>
@@ -70,9 +66,7 @@
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="SAM9X75D2G_DFP"
-                       displayName="SAM9X75D2G_DFP"
-                       projectFiles="true">
+        <logicalFolder name="SAM9X75D2G_DFP" displayName="SAM9X75D2G_DFP" projectFiles="true">
           <logicalFolder name="component" displayName="component" projectFiles="true">
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/adc.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/component/aes.h</itemPath>
@@ -191,7 +185,6 @@
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/trng.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/udphs.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ehci.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ohci.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/wdt.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xdmac.h</itemPath>
@@ -205,49 +198,35 @@
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="true">
-      <logicalFolder name="sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro"
-                     displayName="sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro"
-                     projectFiles="true">
+    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro" displayName="sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro" projectFiles="true">
+        <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/mcc-config.mc4</itemPath>
         <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/BSP_SAM_9X75_Curiosity_pro.yml</itemPath>
+          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/core.yml</itemPath>
+          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dbgu.yml</itemPath>
           <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dfp.yml</itemPath>
           <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/HarmonyCore.yml</itemPath>
-          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/BSP_SAM_9X75_Curiosity_pro.yml</itemPath>
-          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dbgu.yml</itemPath>
           <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/stdio.yml</itemPath>
           <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/sys_time.yml</itemPath>
-          <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/core.yml</itemPath>
           <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/tc0.yml</itemPath>
         </logicalFolder>
-        <itemPath>sys_time_multiclient_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_9x75_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
-    <logicalFolder name="LibraryFiles"
-                   displayName="LibraryFiles"
-                   projectFiles="true">
+    <logicalFolder name="LibraryFiles" displayName="LibraryFiles" projectFiles="true">
     </logicalFolder>
-    <logicalFolder name="LinkerScript"
-                   displayName="Linker Files"
-                   projectFiles="true">
+    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity_pro"
-                       displayName="sam_9x75_curiosity_pro"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity_pro" displayName="sam_9x75_curiosity_pro" projectFiles="true">
           <itemPath>../src/config/sam_9x75_curiosity_pro/ddram.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles"
-                   displayName="Source Files"
-                   projectFiles="true">
+    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="sam_9x75_curiosity_pro"
-                       displayName="sam_9x75_curiosity_pro"
-                       projectFiles="true">
+        <logicalFolder name="sam_9x75_curiosity_pro" displayName="sam_9x75_curiosity_pro" projectFiles="true">
           <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/sam_9x75_curiosity_pro/bsp/bsp.c</itemPath>
           </logicalFolder>
@@ -302,22 +281,21 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>SAM9X75D2G</targetDevice>
-        <targetHeader></targetHeader>
-        <targetPluginBoard></targetPluginBoard>
+        <targetHeader/>
+        <targetPluginBoard/>
         <platformTool>PK5Tool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>5.00</languageToolchainVersion>
+        <languageToolchainVersion>5.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.11.213"/>
+        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.13.225"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
         <ScriptingSetting key="boot.use" value="true"/>
         <ScriptingSetting key="boot.entry_adr" value=""/>
-        <ScriptingSetting key="boot.path"
-                          value="${ProjectDir}\..\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
+        <ScriptingSetting key="boot.path" value="${ProjectDir}\..\..\..\..\..\..\deps\at91bootstrap_binaries\at91bootstrap.elf"/>
         <ScriptingSetting key="boot.prj" value=""/>
       </ScriptingSettings>
       <compileType>
@@ -330,7 +308,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile></alternateLoadableFile>
+          <alternateLoadableFile/>
         </loading>
         <subordinates>
         </subordinates>
@@ -338,9 +316,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPreStep/>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPostStep/>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -361,8 +339,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="expand-pragma-config" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/sam_9x75_curiosity_pro;../src/packs/SAM9X75D2G_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/sam_9x75_curiosity_pro;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -480,8 +457,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/sam_9x75_curiosity_pro;../src/packs/SAM9X75D2G_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/sam_9x75_curiosity_pro;../src/packs/SAM9X75D2G_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -522,12 +498,9 @@
       <PK5Tool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath"
-                  value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UpdateOptions"
-                  value="ToolFirmwareOption.UseLatest"/>
-        <property key="ToolFirmwareToolPack"
-                  value="Press to select which tool pack to use"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions" value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack" value="Press to select which tool pack to use"/>
         <property key="bluetoothsetting" value="do.not.change"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="jtag"/>
@@ -552,8 +525,7 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
@@ -585,21 +557,16 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion"
-                  value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value="3.25"/>
       </PK5Tool>
       <Tool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath"
-                  value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UpdateOptions"
-                  value="ToolFirmwareOption.UseLatest"/>
-        <property key="ToolFirmwareToolPack"
-                  value="Press to select which tool pack to use"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions" value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack" value="Press to select which tool pack to use"/>
         <property key="bluetoothsetting" value="do.not.change"/>
         <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface" value="jtag"/>
@@ -624,8 +591,7 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges"
-                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="300000-eff00fff"/>
         <property key="poweroptions.powerenable" value="false"/>
@@ -657,10 +623,8 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion"
-                  value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value="3.25"/>
       </Tool>
     </conf>
