@@ -243,7 +243,7 @@ void SYS_Initialize ( void* data )
    /* MISRAC 2012 deviation block end */
     /* MISRA C-2023 Rule 11.3, 11.8 deviated below. Deviation record ID -
      H3_MISRAC_2023_R_11_3_DR_1 & H3_MISRAC_2023_R_11_8_DR_1*/
-        
+    
     sysObj.sysDebug = SYS_DEBUG_Initialize(SYS_DEBUG_INDEX_0, (SYS_MODULE_INIT*)&debugInit);
 
     /* MISRAC 2012 deviation block end */
