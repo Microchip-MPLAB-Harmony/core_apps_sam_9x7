@@ -199,7 +199,6 @@
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/trng.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/udphs.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs.h</itemPath>
-            <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ehci.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/uhphs_ohci.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/wdt.h</itemPath>
             <itemPath>../src/packs/SAM9X75D2G_DFP/instance/xdmac.h</itemPath>
@@ -221,11 +220,11 @@
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
           <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/HarmonyCore.yml</itemPath>
-          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dfp.yml</itemPath>
-          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/core.yml</itemPath>
-          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/flexcom7.yml</itemPath>
           <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/drv_at24.yml</itemPath>
           <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/BSP_SAM_9X75_Curiosity_pro.yml</itemPath>
+          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/flexcom7.yml</itemPath>
+          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/core.yml</itemPath>
+          <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/components/dfp.yml</itemPath>
         </logicalFolder>
         <itemPath>at24_eeprom_read_write_sam_9x75_curiosity_pro_sam_9x75_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -313,13 +312,13 @@
         <targetDevice>SAM9X75D2G</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>j32</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>5.00</languageToolchainVersion>
+        <languageToolchainVersion>5.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.9.170"/>
+        <pack name="SAM9X7_DFP" vendor="Microchip" version="1.13.225"/>
       </packs>
       <ScriptingSettings>
         <ScriptingSetting key="boot.load_adr" value=""/>
