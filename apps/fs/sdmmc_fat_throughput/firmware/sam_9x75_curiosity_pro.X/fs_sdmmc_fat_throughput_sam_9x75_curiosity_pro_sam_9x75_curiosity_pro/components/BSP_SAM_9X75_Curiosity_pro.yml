@@ -15,17 +15,6 @@ dependency:
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments: {}
-  elementPosition:
-    attributes:
-      id: __ROOTVIEW
-    children:
-    - children:
-      - attributes:
-          id: BSP_SAM_9X75_Curiosity_pro
-          x: '50'
-          y: '366'
-        type: ElementPosition
-      type: ElementPositions
-    type: ComponentGraph
+  elementPosition: {}
   symbols: {}
   userData: {}
