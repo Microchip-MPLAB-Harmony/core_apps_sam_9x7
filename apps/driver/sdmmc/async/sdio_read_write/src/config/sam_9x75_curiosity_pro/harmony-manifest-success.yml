@@ -4,20 +4,20 @@
 
 
 project: sdio_read_write_sam_9x75_curiosity_pro
-creation_date: 2026-03-15T21:27:51.862+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-05-06T16:57:37.755+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.6.4
 mcc_core_version: v5.8.4
 mplabx_version: v6.30        # if MPLAB X plugin only
 harmony_version: v5.6.4
-compiler: XC32 5.00
+compiler: XC32 5.10
 
 modules:
-    - {name: "core", version: "v3.16.1"}
-    - {name: "csp", version: "v3.25.1"}
+    - {name: "core", version: "v3.16.2"}
+    - {name: "csp", version: "v3.25.2"}
     - {name: "bsp", version: "v3.25.0"}
 
 packs:
-    - {name: "SAM9X7_DFP", version: "1.9.170"}
+    - {name: "SAM9X7_DFP", version: "1.13.225"}
 
