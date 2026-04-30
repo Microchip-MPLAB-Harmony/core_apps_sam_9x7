@@ -22,8 +22,8 @@ data:
     - children:
       - attributes:
           id: BSP_SAM_9X75_Curiosity_pro
-          x: '25'
-          y: '60'
+          x: '31'
+          y: '231'
         type: ElementPosition
       type: ElementPositions
     type: ComponentGraph

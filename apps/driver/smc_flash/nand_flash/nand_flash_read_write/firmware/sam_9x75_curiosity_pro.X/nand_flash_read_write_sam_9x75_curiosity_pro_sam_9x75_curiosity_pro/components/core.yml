@@ -11,7 +11,7 @@ dependency:
 - dependencyPackage: ''
   name: csp
   type: package
-  version: v3.25.1
+  version: v3.25.2
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments: {}
@@ -78,7 +78,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_A22/NANDCLE
+            value: EBI_NANDCLE
           type: User
         type: Values
       type: String
@@ -238,7 +238,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_NCS2/NANDCS
+            value: EBI_NANDCS
           type: User
         type: Values
       type: String
@@ -258,7 +258,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_A21/NANDALE
+            value: EBI_NANDALE
           type: User
         type: Values
       type: String
@@ -338,7 +338,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_NCS0
+            value: ''
           type: User
         type: Values
       type: String
@@ -348,7 +348,7 @@ data:
       children:
       - children:
         - attributes:
-            value: B
+            value: ''
           type: User
         type: Values
       type: String
@@ -418,7 +418,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_NWAIT/NANDRDY
+            value: EBI_NANDRDY
           type: User
         type: Values
       type: String
@@ -525,7 +525,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '32'
+            value: '0'
           type: Dynamic
         type: Values
       type: Hex
@@ -547,7 +547,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '32767'
+            value: '32735'
           type: Dynamic
         type: Values
       type: Hex
