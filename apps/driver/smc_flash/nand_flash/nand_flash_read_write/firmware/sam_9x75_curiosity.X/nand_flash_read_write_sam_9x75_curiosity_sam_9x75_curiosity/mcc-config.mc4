@@ -1,5 +1,6 @@
 configVersion: 1.0.0
 coreVersion: 5.8.4
+spaHostVersion: 1.2.1
 device: SAM9X75D2G
 deviceLibrary:
   className: com.microchip.mcc.harmony.Harmony3Library
@@ -91,7 +92,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_9x75_curiosity\peripheral\xdmac\plib_xdmac_common.h
   hash: 36a0f96ea0c5be39dec6d138bb799581e28321fc9d46f1cec049812ec67e146f
 - file: ..\src\config\sam_9x75_curiosity\pin_configurations.csv
-  hash: 91111cb41d1fb62c3fc9db8b6959fec23bf8d3498e2138b2fa2a3137ee18b4f6
+  hash: ed891c8a6a0c7fd0af7d99124471fc374a95437b41688a542a0192342ce57ca9
 - file: ..\src\config\sam_9x75_curiosity\stdio\xc32_monitor.c
   hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
 - file: ..\src\config\sam_9x75_curiosity\sys_tasks.h

@@ -78,7 +78,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_A22/NANDCLE
+            value: EBI_NANDCLE
           type: User
         type: Values
       type: String
@@ -238,7 +238,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_NCS2/NANDCS
+            value: EBI_NANDCS
           type: User
         type: Values
       type: String
@@ -258,7 +258,7 @@ data:
       children:
       - children:
         - attributes:
-            value: EBI_A21/NANDALE
+            value: EBI_NANDALE
           type: User
         type: Values
       type: String
@@ -771,6 +771,16 @@ data:
           type: Dynamic
         type: Values
       type: Boolean
+    COMPONENT_PACKAGE:
+      attributes:
+        id: COMPONENT_PACKAGE
+      children:
+      - children:
+        - attributes:
+            value: BGA243
+          type: User
+        type: Values
+      type: Combo
   userData:
     children:
     - attributes:
