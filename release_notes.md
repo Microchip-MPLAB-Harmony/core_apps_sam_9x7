@@ -31,7 +31,7 @@ Following table provides number of driver and system service examples available 
 - [MPLAB® X IDE 6.30](https://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® X IDE plug-ins:
   - MPLAB® Code Configurator (MCC) 5.6.4
-- [MPLAB® XC32 C/C++ Compiler 5.00](https://www.microchip.com/mplab/compilers)
+- [MPLAB® XC32 C/C++ Compiler 5.10](https://www.microchip.com/mplab/compilers)
 
 ## Harmony 3 driver and system service application examples for SAM9X7 family v3.5.0
 
